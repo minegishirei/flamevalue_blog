@@ -6,7 +6,7 @@ BLOG_DOMAIN = "flamevalue.hatenablog.com"
 API_KEY = "u6v0f3440e"
 
 def hatena_entry(title, contents, entry_id, categorys=[], updated="", draft=False):
-    BASE_URL = f"https://blog.hatena.ne.jp/minegishirei/psy.hatenadiary.com/atom/entry/{entry_id}"
+    BASE_URL = f"https://blog.hatena.ne.jp/minegishirei/{BLOG_DOMAIN}/atom/entry/{entry_id}"
     updated = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
     category = lambda x: "\n".join([f"<category term='{e}' />" for e in x])
     categorys = category(categorys) if category else ""
