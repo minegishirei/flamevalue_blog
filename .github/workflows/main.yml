@@ -9,7 +9,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -24,13 +24,24 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: build image
+        run: docker image build -t pythonconsole .
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+            if [[ $file == *".md" ]]
+            then
+              docker run -v ./blog:/blog -v ./code:/code pythonconsole bash -c "python /code/workflows.py /$file"
+              echo $file" is ok"
+            fi
+          done
+      
