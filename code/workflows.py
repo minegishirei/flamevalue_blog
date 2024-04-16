@@ -40,6 +40,7 @@ def main():
 
 
 if __name__ == "__main__":
+    import build_param from .flamevalue.main
     import sys
     _, arg = sys.argv
     with open(arg, "r") as f:
@@ -47,4 +48,5 @@ if __name__ == "__main__":
     categorys = categorys.split(",")
     content = "\n".join(content)
     #r = hatena_entry(title, content, entry_id, categorys,True, False)
-    print(r)
+    print( build_param("Python", []) ) 
+
