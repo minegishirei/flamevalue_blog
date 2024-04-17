@@ -31,14 +31,11 @@ jobs:
       - name: Run ls
         run: ls -al
       
-  
-
-      - name: build image
-        run: touch test
-
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Changed files     - name: build image
+          commit_message: Changed files
+      
+      - name: build image
         run: docker image build -t pythonconsole .
 
       - name: run
