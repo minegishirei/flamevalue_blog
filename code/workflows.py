@@ -62,5 +62,8 @@ if __name__ == "__main__":
             template = get_template()
             html_data = template.render(data)
             print(data)
+            print(html_data)
+            r = hatena_entry(title, content, entry_id, categorys,True, False)
+            print(r)
 
 
