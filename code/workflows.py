@@ -41,7 +41,7 @@ def main():
 
 if __name__ == "__main__":
     from flamevalue.main import build_param , GEN_FLAMEWORKDICT
-    from html_lib import get_template
+    from html_lib.main import get_template
     import sys
     _, arg = sys.argv
     with open(arg, "r") as f:
