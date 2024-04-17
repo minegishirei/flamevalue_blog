@@ -1,2 +1,5 @@
 numpy
 tweepy
+careerjet_api
+wikipedia
+mecab-python3
