@@ -51,14 +51,14 @@ function DrawChart() {
 
 def escape_xml(html):
 	escape_dict = [
-		{
-			"key" : '"',
-			"value" : "&quot;"
-		},
-		{
-			"key" : "'",
-			"value" : "&apos;"
-		},
+		#{
+		#	"key" : '"',
+		#J	"value" : "&quot;"
+		#},
+		#{
+		#	"key" : "'",
+		#	"value" : "&apos;"
+		#},
 		{
 			"key" : "<",
 			"value" : "&lt;"
