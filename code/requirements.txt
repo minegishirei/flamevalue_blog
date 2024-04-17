@@ -12,3 +12,4 @@ careerjet_api
 mecab-python3
 unidic-lite
 Jinja2
+pytz
