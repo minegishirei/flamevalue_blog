@@ -1,6 +1,9 @@
 from jinja2 import Template
 html = '''
-<p><button id="BtnUpdate" type="button">グラフ表示</button></p>
+
+## test
+
+
 <div style="width: 380px;"><canvas id="chart1"></canvas></div>
 <p>
 <script>
@@ -39,7 +42,11 @@ function DrawChart() {
 	});
 }
 </script>
-</p>
+
+
+## test done
+
+
 '''
 
 def get_template():
