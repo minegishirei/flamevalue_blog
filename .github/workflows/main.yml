@@ -46,7 +46,13 @@ jobs:
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
         #   since_last_remote_commit: true 
+      
+      - name: build image
+        run: touch test
 
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Changed files
       #- name: List all changed files
       #  env:
       #    ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
