@@ -41,6 +41,7 @@ def main():
 
 if __name__ == "__main__":
     from flamevalue.main import build_param , GEN_FLAMEWORKDICT
+    from html_lib import get_template
     import sys
     _, arg = sys.argv
     with open(arg, "r") as f:
@@ -53,9 +54,13 @@ if __name__ == "__main__":
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
         json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
 
-    lang_names = ["Python", "Java", "Ruby"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
+    lang_names = ["Java"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
     for lang_name in lang_names:
         with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
-            json.dump(build_param(lang_name, FLAMEWORKDICT), f, indent=4, ensure_ascii=False)
+            data = build_param(lang_name, FLAMEWORKDICT)
+            json.dump(data, f, indent=4, ensure_ascii=False)
+            template = get_template()
+            html_data = template.render(data)
+            print(data)
 
 
