@@ -1,28 +1,80 @@
 [
     {
         "basic": {
-            "money": 305,
-            "overtime": 425,
+            "money": 344,
+            "overtime": 542,
             "age": 30,
-            "size": 425,
-            "remote": 31,
-            "count": 104923,
-            "qiita_score": 83840
+            "size": 542,
+            "remote": 24,
+            "count": 55922,
+            "qiita_score": 92262
         },
         "score": {
-            "money": 2.178571428571429,
-            "overtime": 2.125,
+            "money": 2.4571428571428573,
+            "overtime": 2.71,
             "age": 2.5,
-            "size": 2.125,
-            "remote": 2.2142857142857144,
+            "size": 2.71,
+            "remote": 1.7142857142857144,
             "count": 5,
             "qiita_score": 5
         },
         "name": "Java",
         "stars": "★★★☆☆",
-        "total_score": 3.02,
+        "total_score": 3.16,
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
         "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 468,
+            "overtime": 597,
+            "age": 30,
+            "size": 597,
+            "remote": 30,
+            "count": 38352,
+            "qiita_score": 177192
+        },
+        "score": {
+            "money": 3.342857142857143,
+            "overtime": 2.985,
+            "age": 2.5,
+            "size": 2.985,
+            "remote": 2.142857142857143,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Python",
+        "stars": "★★★☆☆",
+        "total_score": 3.42,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
+        "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 537,
+            "overtime": 738,
+            "age": 30,
+            "size": 738,
+            "remote": 40,
+            "count": 15368,
+            "qiita_score": 69126
+        },
+        "score": {
+            "money": 3.8357142857142854,
+            "overtime": 3.69,
+            "age": 2.5,
+            "size": 3.69,
+            "remote": 2.8571428571428568,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Ruby",
+        "stars": "★★★★☆",
+        "total_score": 3.8,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/04ddc69fa03cd83041203ac067139d349ae8dee9/medium.jpg?1650353332",
+        "explain": "Ruby（ルビー）は、まつもとゆきひろ（通称: Matz）により開発された、簡潔な文法が特徴的なオブジェクト指向スクリプト言語。\n日本で開発されたプログラミング言語としては初めて国際電気標準会議（IEC）で国際規格に認証された事例となった。",
         "admin_comment": null
     }
 ]
