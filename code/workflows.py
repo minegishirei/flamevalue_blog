@@ -1,5 +1,6 @@
 from datetime import datetime
 import requests as req
+import json
 
 HATENA_ID = "minegishirei"
 BLOG_DOMAIN = "flamevalue.hatenablog.com"
@@ -31,16 +32,15 @@ def main():
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
         json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
 
-    lang_names = ["Python", "Java", "Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
+    lang_names = ["Python", "Java"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
     for lang_name in lang_names:
-        if random.random() < 0.5:
-            with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
-                json.dump(build_param(lang_name, FLAMEWORKDICT), f, indent=4, ensure_ascii=False)
+        with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
+            json.dump(build_param(lang_name, FLAMEWORKDICT), f, indent=4, ensure_ascii=False)
 
 
 
 if __name__ == "__main__":
-    from flamevalue.main import build_param 
+    from flamevalue.main import build_param , GEN_FLAMEWORKDICT
     import sys
     _, arg = sys.argv
     with open(arg, "r") as f:
@@ -48,5 +48,14 @@ if __name__ == "__main__":
     categorys = categorys.split(",")
     content = "\n".join(content)
     #r = hatena_entry(title, content, entry_id, categorys,True, False)
-    print( build_param("Python", []) ) 
+
+    FLAMEWORKDICT = GEN_FLAMEWORKDICT("/static/flamevalue/")
+    with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
+        json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
+
+    lang_names = ["Python", "Java"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
+    for lang_name in lang_names:
+        with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
+            json.dump(build_param(lang_name, FLAMEWORKDICT), f, indent=4, ensure_ascii=False)
+
 
