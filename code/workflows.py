@@ -17,7 +17,7 @@ def hatena_entry(title, contents, entry_id, categorys=[], updated="", draft=Fals
           xmlns:app="http://www.w3.org/2007/app">
       <title>{title}</title>
       <author><name>name</name></author>
-      <content type="text/html">
+      <content>
         {contents}
       </content>
     </entry>""".encode(
