@@ -1,5 +1,5 @@
 
-from careerJet import clear_jnet,mock_getCareerJet, row_converter, getCareerJet
+from .careerJet import clear_jnet,mock_getCareerJet, row_converter, getCareerJet
 from functools import reduce
 from operator import add
 import datetime
@@ -7,8 +7,8 @@ import pprint
 import wikipedia
 # 言語を日本語に設定
 wikipedia.set_lang("jp")
-from my_tools import del_dub_dict_list
-from my_tools import calc_distance
+from .my_tools import del_dub_dict_list
+from .my_tools import calc_distance
 from multiprocessing import Process
 import random
 import math            
