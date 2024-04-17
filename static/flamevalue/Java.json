@@ -1,7 +1,7 @@
 {
     "name": "Java",
     "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
-    "date": "2024/04/17 13:20:34",
+    "date": "2024/04/17 23:27:49",
     "total_score": 3.39,
     "stars": "★★★☆☆",
     "basic": {
@@ -11,7 +11,7 @@
         "size": 506,
         "remote": 51,
         "count": 53490,
-        "qiita_score": 92304
+        "qiita_score": 92319
     },
     "score": {
         "money": 2.492857142857143,
@@ -8327,7 +8327,7 @@
             "description": "最速で価値を生み出すことをモットーに仕事をしています | 機械学習→Webエンジニア | プログラミングコーチングJISOUを運営 | Qiitaで500本以上投稿 | YouTubeでエンジニアのマインドセットを発信 | パブリックスピーキングと0 ⇨ 1が得意 ",
             "facebook_id": "",
             "followees_count": 14,
-            "followers_count": 2822,
+            "followers_count": 2825,
             "github_login_name": "jinwatanabe",
             "id": "Sicut_study",
             "items_count": 529,
@@ -8360,22 +8360,22 @@
             "website_url": ""
         },
         {
-            "description": "エンジニア。プログラマ。システム管理者。データサイエンティスト。フルスタックエンジニアを目指して…。",
+            "description": "機械学習/AR/SceneKit/iOS/Swift/Core ML\r\n\r\nお仕事のご相談は rockyshikoku@gmail.com まで。",
             "facebook_id": "",
-            "followees_count": 149,
-            "followers_count": 19,
-            "github_login_name": null,
-            "id": "nori-channel",
-            "items_count": 344,
+            "followees_count": 15,
+            "followers_count": 176,
+            "github_login_name": "john-rocky",
+            "id": "john-rocky",
+            "items_count": 433,
             "linkedin_id": "",
             "location": "日本",
-            "name": "のりちゃんねる",
-            "organization": "",
-            "permanent_id": 3192024,
-            "profile_image_url": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/3192024/5583094902ba528de06d89d3d2c028dac1a8159f/large.png?1676989244",
+            "name": "MLBOYまじま だいすけお仕事大歓迎",
+            "organization": "フリーランス",
+            "permanent_id": 235259,
+            "profile_image_url": "https://avatars0.githubusercontent.com/u/23278992?v=4",
             "team_only": false,
-            "twitter_screen_name": null,
-            "website_url": "https://www.youtube.com/@nori-channel"
+            "twitter_screen_name": "JackdeS11",
+            "website_url": "https://sites.google.com/view/mlboydaisuke/%E3%83%9B%E3%83%BC%E3%83%A0"
         }
     ],
     "qiita_comments": [
@@ -8497,7 +8497,7 @@
                 "size": 506,
                 "remote": 51,
                 "count": 53490,
-                "qiita_score": 92303
+                "qiita_score": 92304
             },
             "score": {
                 "money": 2.492857142857143,
