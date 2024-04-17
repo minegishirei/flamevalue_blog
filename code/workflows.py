@@ -40,7 +40,7 @@ def main():
 
 
 if __name__ == "__main__":
-    import build_param from .flamevalue.main
+    from .flamevalue.main import build_param 
     import sys
     _, arg = sys.argv
     with open(arg, "r") as f:
