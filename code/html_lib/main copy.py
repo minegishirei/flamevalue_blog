@@ -4,9 +4,9 @@ html = '''
 ## test
 
 
-<div style="width: 380px;"><canvas id="chart1"></canvas></div>
-<p>
-<script>
+&lt;div style=&quot;width: 380px;&quot;&gt;&lt;canvas id=&quot;chart1&quot;&gt;&lt;/canvas&gt;&lt;/div&gt;
+
+&lt;script&gt;
 // ボタンをクリック
 window.onload = function(){
   DrawChart(); // グラフを再描画
@@ -41,42 +41,14 @@ function DrawChart() {
 	  },
 	});
 }
-</script>
-
+&lt;/script&gt;
 
 ## test done
 
+
 '''
 
-
-def escape_xml(html):
-	escape_dict = [
-		{
-			"key" : '"',
-			"value" : "&quot;"
-		},
-		{
-			"key" : "'",
-			"value" : "&apos;"
-		},
-		{
-			"key" : "<",
-			"value" : "&lt;"
-		},
-		{
-			"key" : ">",
-			"value" : "&gt;"
-		},
-		{
-			"key" : "&",
-			"value" : "&amp;"
-		}
-	]
-	for row in escape_dict:
-		html = html.replace(row["key"], row["value"])
-	return html
-
 def get_template():
-    return Template(escape_xml(html))
+    return Template(html)
 
 print ()
