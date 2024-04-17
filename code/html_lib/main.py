@@ -67,10 +67,10 @@ def escape_xml(html):
 			"key" : ">",
 			"value" : "&gt;"
 		},
-		{
-			"key" : "&",
-			"value" : "&amp;"
-		}
+		#{
+		#	"key" : "&",
+		#	"value" : "&amp;"
+		#}
 	]
 	for row in escape_dict:
 		html = html.replace(row["key"], row["value"])
