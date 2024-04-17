@@ -6,7 +6,7 @@ html = '''
 
 <div style="width: 380px;"><canvas id="chart1"></canvas></div>
 
-<script>
+&lt;script&gt;
 // ボタンをクリック
 window.onload = function(){
   DrawChart(); // グラフを再描画
@@ -41,8 +41,7 @@ function DrawChart() {
 	  },
 	});
 }
-</script>
-
+&lt;/script&gt;
 
 ## test done
 
