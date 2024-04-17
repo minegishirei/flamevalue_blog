@@ -31,11 +31,18 @@ jobs:
       - name: Run ls
         run: ls -al
       
+  
+
       - name: build image
+        run: touch test
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Changed files     - name: build image
         run: docker image build -t pythonconsole .
 
       - name: run
-        run: docker run -v ./blog:/blog -v ./code:/code pythonconsole bash -c "python /code/workflows.py /blog/main.md"
+        run: docker run -v ./blog:/blog -v ./code:/code -v ./static/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
 
       # -----------------------------------------------------------------------------------------------------------
       # Example 1
@@ -47,12 +54,7 @@ jobs:
         # with:
         #   since_last_remote_commit: true 
       
-      - name: build image
-        run: touch test
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Changed files
       #- name: List all changed files
       #  env:
       #    ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
