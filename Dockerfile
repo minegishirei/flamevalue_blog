@@ -21,3 +21,5 @@ RUN apt-get install -y mecab \
   && apt-get install -y mecab-ipadic-utf8 \
   && apt-get install -y swig
 RUN pip install mecab-python3
+
+ENV MECABRC /opt/homebrew/etc/mecabrc
