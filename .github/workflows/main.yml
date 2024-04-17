@@ -39,7 +39,7 @@ jobs:
         run: docker image build -t pythonconsole .
 
       - name: run
-        run: docker run -v ./blog:/blog -v ./code:/code -v ./static/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
+        run: docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
 
       # -----------------------------------------------------------------------------------------------------------
       # Example 1
