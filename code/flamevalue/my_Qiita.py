@@ -2,7 +2,7 @@ import requests
 import json
 import pprint
 import time
-from my_tools import calc_distance
+from .my_tools import calc_distance
 #from my_tools import calc_distance
 
 def getQiitaInfo(query, per_page):
