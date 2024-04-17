@@ -31,16 +31,17 @@ jobs:
       - name: Run ls
         run: ls -al
       
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Changed files
-      
+
       - name: build image
         run: docker image build -t pythonconsole .
 
       - name: run
         run: docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
 
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Changed files
+      
       # -----------------------------------------------------------------------------------------------------------
       # Example 1
       # -----------------------------------------------------------------------------------------------------------

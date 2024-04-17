@@ -53,7 +53,7 @@ if __name__ == "__main__":
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
         json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
 
-    lang_names = ["Python", "Java"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
+    lang_names = ["Python", "Java", "Ruby"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
     for lang_name in lang_names:
         with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
             json.dump(build_param(lang_name, FLAMEWORKDICT), f, indent=4, ensure_ascii=False)
