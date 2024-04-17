@@ -5,7 +5,7 @@ html = '''
 
 
 <div style="width: 380px;"><canvas id="chart1"></canvas></div>
-<p>
+
 <script>
 // ボタンをクリック
 window.onload = function(){
