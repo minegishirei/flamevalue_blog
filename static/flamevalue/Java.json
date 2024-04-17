@@ -1,0 +1,3531 @@
+{
+    "name": "Java",
+    "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
+    "date": "2023/09/30 12:53:23",
+    "total_score": 3.02,
+    "stars": "★★★☆☆",
+    "basic": {
+        "money": 305,
+        "overtime": 425,
+        "age": 30,
+        "size": 425,
+        "remote": 31,
+        "count": 104923,
+        "qiita_score": 83840
+    },
+    "score": {
+        "money": 2.178571428571429,
+        "overtime": 2.125,
+        "age": 2.5,
+        "size": 2.125,
+        "remote": 2.2142857142857144,
+        "count": 5,
+        "qiita_score": 5
+    },
+    "score_100": {
+        "money": 43.57142857142857,
+        "overtime": 42.5,
+        "age": 50.0,
+        "size": 42.5,
+        "remote": 44.285714285714285,
+        "count": 100,
+        "qiita_score": 100
+    },
+    "basic_graph": [
+        {
+            "2023-09-03": {
+                "money": 0,
+                "overtime": 0,
+                "age": 0,
+                "count": 0,
+                "size": 0
+            }
+        },
+        {
+            "2023-09-06": {
+                "money": 0,
+                "overtime": 0,
+                "age": 0,
+                "count": 0,
+                "size": 0
+            }
+        },
+        {
+            "2023-09-09": {
+                "money": 0,
+                "overtime": 0,
+                "age": 0,
+                "count": 0,
+                "size": 0
+            }
+        },
+        {
+            "2023-09-12": {
+                "money": 0,
+                "overtime": 0,
+                "age": 0,
+                "count": 0,
+                "size": 0
+            }
+        },
+        {
+            "2023-09-15": {
+                "money": 507,
+                "overtime": 507,
+                "age": 30,
+                "size": 507,
+                "remote": 67,
+                "count": 3
+            }
+        },
+        {
+            "2023-09-18": {
+                "money": 467,
+                "overtime": 630,
+                "age": 30,
+                "size": 630,
+                "remote": 33,
+                "count": 6
+            }
+        },
+        {
+            "2023-09-21": {
+                "money": 390,
+                "overtime": 505,
+                "age": 30,
+                "size": 505,
+                "remote": 56,
+                "count": 9
+            }
+        },
+        {
+            "2023-09-24": {
+                "money": 262,
+                "overtime": 372,
+                "age": 30,
+                "size": 372,
+                "remote": 30,
+                "count": 23
+            }
+        },
+        {
+            "2023-09-27": {
+                "money": 262,
+                "overtime": 372,
+                "age": 30,
+                "size": 372,
+                "remote": 30,
+                "count": 23
+            }
+        }
+    ],
+    "score_graph": [
+        {
+            "2023-09-03": {
+                "money": 0.0,
+                "overtime": 0.0,
+                "age": 0.0,
+                "count": 0.0,
+                "size": 0.0
+            }
+        },
+        {
+            "2023-09-06": {
+                "money": 0.0,
+                "overtime": 0.0,
+                "age": 0.0,
+                "count": 0.0,
+                "size": 0.0
+            }
+        },
+        {
+            "2023-09-09": {
+                "money": 0.0,
+                "overtime": 0.0,
+                "age": 0.0,
+                "count": 0.0,
+                "size": 0.0
+            }
+        },
+        {
+            "2023-09-12": {
+                "money": 0.0,
+                "overtime": 0.0,
+                "age": 0.0,
+                "count": 0.0,
+                "size": 0.0
+            }
+        },
+        {
+            "2023-09-15": {
+                "money": 3.6214285714285714,
+                "overtime": 2.535,
+                "age": 2.5,
+                "size": 2.535,
+                "remote": 4.785714285714286,
+                "count": 0.0014999999999999998
+            }
+        },
+        {
+            "2023-09-18": {
+                "money": 3.335714285714286,
+                "overtime": 3.15,
+                "age": 2.5,
+                "size": 3.15,
+                "remote": 2.357142857142857,
+                "count": 0.0029999999999999996
+            }
+        },
+        {
+            "2023-09-21": {
+                "money": 2.7857142857142856,
+                "overtime": 2.525,
+                "age": 2.5,
+                "size": 2.525,
+                "remote": 4.0,
+                "count": 0.0045
+            }
+        },
+        {
+            "2023-09-24": {
+                "money": 1.8714285714285714,
+                "overtime": 1.8599999999999999,
+                "age": 2.5,
+                "size": 1.8599999999999999,
+                "remote": 2.142857142857143,
+                "count": 0.0115
+            }
+        },
+        {
+            "2023-09-27": {
+                "money": 1.8714285714285714,
+                "overtime": 1.8599999999999999,
+                "age": 2.5,
+                "size": 1.8599999999999999,
+                "remote": 2.142857142857143,
+                "count": 0.0115
+            }
+        }
+    ],
+    "score_graph_json": "[{\"date\": \"2023-09-03\", \"values\": {\"money\": 0.0, \"overtime\": 0.0, \"age\": 0.0, \"count\": 0.0, \"size\": 0.0}}, {\"date\": \"2023-09-06\", \"values\": {\"money\": 0.0, \"overtime\": 0.0, \"age\": 0.0, \"count\": 0.0, \"size\": 0.0}}, {\"date\": \"2023-09-09\", \"values\": {\"money\": 0.0, \"overtime\": 0.0, \"age\": 0.0, \"count\": 0.0, \"size\": 0.0}}, {\"date\": \"2023-09-12\", \"values\": {\"money\": 0.0, \"overtime\": 0.0, \"age\": 0.0, \"count\": 0.0, \"size\": 0.0}}, {\"date\": \"2023-09-15\", \"values\": {\"money\": 3.6214285714285714, \"overtime\": 2.535, \"age\": 2.5, \"size\": 2.535, \"remote\": 4.785714285714286, \"count\": 0.0014999999999999998}}, {\"date\": \"2023-09-18\", \"values\": {\"money\": 3.335714285714286, \"overtime\": 3.15, \"age\": 2.5, \"size\": 3.15, \"remote\": 2.357142857142857, \"count\": 0.0029999999999999996}}, {\"date\": \"2023-09-21\", \"values\": {\"money\": 2.7857142857142856, \"overtime\": 2.525, \"age\": 2.5, \"size\": 2.525, \"remote\": 4.0, \"count\": 0.0045}}, {\"date\": \"2023-09-24\", \"values\": {\"money\": 1.8714285714285714, \"overtime\": 1.8599999999999999, \"age\": 2.5, \"size\": 1.8599999999999999, \"remote\": 2.142857142857143, \"count\": 0.0115}}, {\"date\": \"2023-09-27\", \"values\": {\"money\": 1.8714285714285714, \"overtime\": 1.8599999999999999, \"age\": 2.5, \"size\": 1.8599999999999999, \"remote\": 2.142857142857143, \"count\": 0.0115}}]",
+    "money_sorted": [
+        {
+            "会社名": "株式会社パソナ",
+            "規模": 523,
+            "年収": 523,
+            "残業時間": 523,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-22"
+        },
+        {
+            "会社名": "株式会社パソナ",
+            "規模": 510,
+            "年収": 510,
+            "残業時間": 510,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-22"
+        },
+        {
+            "会社名": "株式会社パソナ",
+            "規模": 489,
+            "年収": 489,
+            "残業時間": 489,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-22"
+        },
+        {
+            "会社名": "株式会社スカイウイル",
+            "規模": 660,
+            "年収": 480,
+            "残業時間": 660,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-23"
+        },
+        {
+            "会社名": "",
+            "規模": 700,
+            "年収": 450,
+            "残業時間": 700,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "株式会社ファンコミュニケーションズ",
+            "規模": 800,
+            "年収": 400,
+            "残業時間": 800,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-23"
+        },
+        {
+            "会社名": "株式会社ファンコミュニケーションズ",
+            "規模": 800,
+            "年収": 400,
+            "残業時間": 800,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-23"
+        },
+        {
+            "会社名": "",
+            "規模": 333,
+            "年収": 333,
+            "残業時間": 333,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 770,
+            "年収": 300,
+            "残業時間": 770,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 770,
+            "年収": 300,
+            "残業時間": 770,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 770,
+            "年収": 300,
+            "残業時間": 770,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 300,
+            "年収": 266,
+            "残業時間": 300,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-28"
+        },
+        {
+            "会社名": "パーソルクロステクノロジー株式会社",
+            "規模": 266,
+            "年収": 266,
+            "残業時間": 266,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "日本インターシステムズ株式会社",
+            "規模": 300,
+            "年収": 264,
+            "残業時間": 300,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-29"
+        },
+        {
+            "会社名": "パーソルクロステクノロジー株式会社",
+            "規模": 255,
+            "年収": 255,
+            "残業時間": 255,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 252,
+            "年収": 252,
+            "残業時間": 252,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 252,
+            "年収": 252,
+            "残業時間": 252,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "ユニインフォーメーション株式会社",
+            "規模": 420,
+            "年収": 252,
+            "残業時間": 420,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "ユニインフォーメーション株式会社",
+            "規模": 420,
+            "年収": 252,
+            "残業時間": 420,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 252,
+            "年収": 252,
+            "残業時間": 252,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 252,
+            "年収": 252,
+            "残業時間": 252,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "ユニインフォーメーション株式会社",
+            "規模": 420,
+            "年収": 252,
+            "残業時間": 420,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "ユニインフォーメーション株式会社",
+            "規模": 420,
+            "年収": 252,
+            "残業時間": 420,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "グリーンシステム株式会社",
+            "規模": 300,
+            "年収": 252,
+            "残業時間": 300,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-29"
+        },
+        {
+            "会社名": "グリーンシステム株式会社",
+            "規模": 300,
+            "年収": 252,
+            "残業時間": 300,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-29"
+        },
+        {
+            "会社名": "",
+            "規模": 244,
+            "年収": 222,
+            "残業時間": 244,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-28"
+        },
+        {
+            "会社名": "",
+            "規模": 222,
+            "年収": 222,
+            "残業時間": 222,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-28"
+        },
+        {
+            "会社名": "",
+            "規模": 188,
+            "年収": 188,
+            "残業時間": 188,
+            "リモート率": 100,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        },
+        {
+            "会社名": "",
+            "規模": 151,
+            "年収": 151,
+            "残業時間": 151,
+            "リモート率": 0,
+            "年齢": 30,
+            "日付": "2023-09-30"
+        }
+    ],
+    "jobs": [
+        {
+            "salary_min": "4000000",
+            "locations": "東京都渋谷区",
+            "salary_type": "Y",
+            "date": "Sat, 23 Sep 2023 07:52:44 GMT",
+            "description": "【A8Webアプリケーションエンジニア1・２課】<b>Java</b>_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の開発（A8事業部プロダクト開発部アプリ開発1・２課）   [仕事内容]  ■具体的な仕事内容  ・A8.net...に応じて担当していただきます。  ・技術的な問合せ対応、データ抽出(データベースからデータを取得する作業)など  ・不具合、障害対応   【対象の機能】  ・広告配信（Scala, <b>Java</b>）  ・トラッキング（JavaScript）  ・広告配信レポート（<b>Java</b>）  ・管理...",
+            "salary_currency_code": "JPY",
+            "salary": "4000000 - 8000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4c13416479443c2b079db6e88ff8d4652c74548bebdbc9a88eceafdc8cedac97a2c14887c3c48284ca8dfad228c8bf8fcee7f88da4de008afeea89fedf003e091f1228c8bf85cee7dc8da5ccc3e0e382ecc545c9e2e38eea900b774c5b056d888ad7c7c7d684fdc645c3f6ca8af0bdc8be870d8df9e5c0ed9a625a595b505613/2871a8a654dade567afaa6de8bdbb149.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【A8Webアプリケーションエンジニア1・２課】Java_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の開発（A8事業部プロダクト開発部アプリ開発1・２課）｜ SE（オープンweb系） 正社員 | 東京都渋谷区 （ITエンジニア）",
+            "salary_max": "8000000",
+            "company": "株式会社ファンコミュニケーションズ"
+        },
+        {
+            "salary_min": "400000",
+            "locations": "東京都品川区",
+            "salary_type": "M",
+            "date": "Sat, 23 Sep 2023 07:36:16 GMT",
+            "description": "【COBOL/<b>Java</b>】開発エンジニア   [仕事内容]  大手企業の基幹システム改修支援  その他のシステム改修支援（調査、ドキュメント作成、開発、単体テスト、結合テスト）  業務要望に対する対応（データ登録・抽出、システム修正、機能...テム開発経験（COBOL、JCL、<b>Java</b>、SQL、Oracle ）  プロジェクトリーダー経験  ※COBOLおよび<b>Java</b>は2年以上必須、その他は尚可   【求める人物像】  ・熱いベンチャースピリットを持った方  ・自ら考え、行動できる前向きな方  ・PL...",
+            "salary_currency_code": "JPY",
+            "salary": "400000 - 550000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1a19416479448cec8f97a3d08be3d684e6ab97eacb53cc869eca89da8afd8676c3e1c082edd486a2cc8beaf8c9a99f0dc4f2e489bece002909170f652c74548bebdbc9a88eceafdc8cedac97a2c16a87c3c48284ca8dfad20a62692fcbc9cc8983cac5f0c94189c3dbc5e7c96841121e0a1e19/8c0d23312fe5f0b86656d0e8cc6141b6.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【COBOL/Java】開発エンジニア｜ サーバーサイド 正社員 | 東京都品川区 （ITエンジニア）",
+            "salary_max": "550000",
+            "company": "株式会社スカイウイル"
+        },
+        {
+            "salary_min": "4000000",
+            "locations": "東京都渋谷区",
+            "salary_type": "Y",
+            "date": "Sat, 23 Sep 2023 07:27:13 GMT",
+            "description": "【【Webアプリケーションエンジニア】<b>Java</b>_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の新しい機能・サービスの開発（A8事業部プロダクト開発部アプリ開発4課）】   [仕事内容]  ■具体的な仕事内容  A8...プロジェクトのタスク管理   A8.netの顧客に新しい価値を提供し、事業と共に自身も成長したいという方を歓迎します。   【対象の機能】  ・広告配信（Scala, <b>Java</b>）  ・トラッキング（JavaScript）  ・広告配信レポート（<b>Java</b>）  ・管理...",
+            "salary_currency_code": "JPY",
+            "salary": "4000000 - 8000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1e13416479443c2b079db6e88ff8d4652c74548bebdbc9a88eceafdc8cedac97a2c14887c3c48284ca8dfad2287c584f0d87edccc4f7b780ebcb4e8ef3ab93f1d3717d4e5f0dcee6c78da4c7c3e1d082edec86a2d6488fde89cc9993c8f7ce6cc4f68280ebf68de4cf009dfee294b3911d674c120e6f154c15545b52/37f46df9dbc9cf127cf5bed2a19c7d18.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【【Webアプリケーションエンジニア】Java_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の新しい機能・サービスの開発（A8事業部プロダクト開発部アプリ開発4課）】｜ SE（オープンweb系） 正社員 | 東京都渋谷区 （ITエンジニア）",
+            "salary_max": "8000000",
+            "company": "株式会社ファンコミュニケーションズ"
+        },
+        {
+            "salary_min": "2000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:29:00 GMT",
+            "description": "・能力による）   職種：  ［<b>Java</b>］制作管理システムの再構築業務   勤務地：  愛知県名古屋市中区／最寄駅：伏見（愛知県）駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み][短期...ワーク]   既存制作管理システムの再構築業務です<b>Java</b>やSQLの実務経験あればフル在宅のお仕事です（初回出社可能性あり）期間限定の案件です   【求人情報】  職種：  ［<b>Java</b>］制作管理システムの再構築業務   仕事内容：  ◆既存...",
+            "salary_currency_code": "JPY",
+            "salary": "2000 - 2200 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121341ceafd38cec9e97a3e58be2ce47828ed58ff9f528c8bf9acee6d68da4f2c3e0c84188c2c8c5fff16b96a29dd990b14488c08693b0e56a82ecd086a2cd8beaf5c9a89d0d6705190f2591a8d58cdcf2665717425b5847/69940644ca02068e64cc97b4a907be21.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "［Java］制作管理システムの再構築業務",
+            "salary_max": "2200",
+            "company": ""
+        },
+        {
+            "salary_min": "2000",
+            "locations": "北海道札幌市中央区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:13:56 GMT",
+            "description": "パーソルエクセルHRパートナーズ株式会社 テクニカルキャリアサポート部/23-0578624  &lt;派遣社員&gt;   ［在宅あり！駅近！］＼時給2000円／認証アプリ開発・<b>Java</b>   給与：  時給2000円   職種...：  ◆認証アプリケーション開発／<b>Java</b>   勤務地：  北海道札幌市中央区／最寄駅：さっぽろ駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み]   <b>Java</b>を使...",
+            "salary_currency_code": "JPY",
+            "salary": "2000 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1c1b41ceafc68cedb097a3c94888f8ec82b9ce4823125c4a3fceafc68cedb097a3c94888f8ec82b9ce6a80e5a1cca4970d2e0e1846766a021e004e84e78297ebfe90a9813fceafc68cedb097a3c98be3df84e69c97eade90a98cdeae9e4486f8ac93b9d9695356525c114d/eded27afbc078dc6829e3d7d814c177c.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "認証アプリケーション開発／Java",
+            "salary_max": "2000",
+            "company": ""
+        },
+        {
+            "salary_min": "2400",
+            "locations": "福岡市博多区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:08:50 GMT",
+            "description": "パーソルエクセルHRパートナーズ株式会社 テクニカルキャリアサポート部/23-0580006  &lt;派遣社員&gt;   ［在宅あり・信販系決済代行システム開発］<b>Java</b>・JavaScript   給与：  時給2400円〜2700円...（経験・能力による）   職種：  ◆信販系決済代行システム開発（<b>Java</b>）   勤務地：  福岡県福岡市博多区／最寄駅：博多駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み]   お気...",
+            "salary_currency_code": "JPY",
+            "salary": "2400 - 2700 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191941ceafd38cec9e97a3e58be2ce478cb6ff8ff0c928c2aba6cafdd54e6d1556026a82ecd086a2cd8beaf5c9a89d0d6705190f259db6e88ff8d46586a2c38bebcac9a8bbceaec46e5c1042125658/e71524f8440d68b614c8e088640bff2c.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "信販系決済代行システム開発（Java）",
+            "salary_max": "2700",
+            "company": ""
+        },
+        {
+            "salary_min": "1700",
+            "locations": "群馬県高崎市",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:55:33 GMT",
+            "description": "【仕事内容】【時給1700円×在宅勤務あり】システム開発 ＠高崎  未経験OK！開発言語の<b>Java</b>もしくはC＃ができる方ゆったり9時半〜就業開始♪週1〜2日在宅勤務ありデニム＆スニーカーOK★髪色＆ネイルも楽しめます♪通勤...交通費の支給&半休制度あり★来社不要★スマホでテンプに登録,高崎＼未経験OK◎／業務系システム開発！<b>Java</b>もしくはC＃を使用します  ●総務系、財務系、医療系、販売管理システムなどの業務系システム開発●コールセンター、マーケティング、デー...",
+            "salary_currency_code": "JPY",
+            "salary": "1700 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1f1241cbb1ce88dbab9d88f04887f2ea8d83f14880d880cea3a6c5e3c589b3c52286f4c98bc9e00097eade90a892deaeab87ecce079db6e88ff8d46583bcde8fdcffc383ae0dcee7ff8da5d0c3e1c7418addc1c9f4f281c19129774c5b054f87b1ffc7fad24188fbcfc7c1e480dbb929deaf9a87edd7c4f7a680ebc14e81f98a93dde59a82b81d674c120e6f1f4713525d/969ecc34064838ad1d4b2cce494425c8.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "高崎＼未経験OK◎／業務系システム開発！JavaもしくはC＃を使用します【】【交通費支給】【未経験者歓迎】【服装/髪型自由】【駅チカ・駅ナカ】【車・バイク通勤OK】【在宅勤務・リモートワーク可】【長期歓迎】【最寄り駅】南高崎駅 徒歩3分",
+            "salary_max": "1700",
+            "company": ""
+        },
+        {
+            "salary_min": "435900",
+            "locations": "東京都新宿区",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:50:38 GMT",
+            "description": "スキル  ・<b>JAVA</b>、Oracleの知識経験  ・外部設計以降の工程経験(3年以上目安)   ■歓迎スキル  ・リーダー経験   勤務条件   お仕事分野   システムエンジニア（SE） / 電気/設計・開発   勤務先の業界   IT業界   募集...以上の可能性あり）   勤務曜日   月・火・水・木・金  月～金／週5勤務（土日祝休み）   勤務時間   9:00～17:30 （実働7時間30分）休憩60分   残業   5時間以内   必要経験   プログラマー（PG）   必要スキル   <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "435900 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-481c41674c120e4ecee2ab84f1db4e82f98891c6ec71c3bdb6cab4de4f24460241618dfdc682cba554213d71604a4b4c0d81f3c6c2daa5618dfdc682cba55481fff8cdb2872c1f5c5a591441/5fd859be4a88e8811b2517b186ed539d.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【西新宿エリア】IT業界／スタート日相談可／Java開発スキルいかせます／在宅ありのお仕事です",
+            "salary_max": "435900",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "425300",
+            "locations": "神奈川県厚木市",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:44:50 GMT",
+            "description": "ース  ・アジャイル方式での設計・開発・テストのスプリント  ・別部門の製造とのシステムテスト実施  ・リリース   ■必要スキル  ・システムの開発経験（<b>Java</b>）  ・SQLの知識、経験   ■歓迎スキル  ・tableauの知識、経験   勤務...以内   必要経験   プログラマー（PG）、データベース、アプリケーション設計   必要スキル   JavaScript、<b>Java</b>、tableau   ※就業場所が官庁、学校、病院の場合、「屋内禁煙」は「敷地内禁煙」、「屋内原則禁煙（喫煙室あり）」は...",
+            "salary_currency_code": "JPY",
+            "salary": "425300 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121f41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8cef82ce93a80d87edd9c4f69980ebe78de4c5009dfee294b3913f674c120e4ecee2ab84f1db4e82f98891c6ec71c9a980ceaef18cedaf54c9f5e386f7dd45c5e8c08cddaf29d4bba683f6d40797a2de8be2fb84e6a875505a401818/599b9c41c07c10a9b3336ff3e0763b81.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【厚木エリア】ソフトウェアベンダー／Java、SQL、tableau経験いかせます／在宅あり／システム開発のお仕事です",
+            "salary_max": "425300",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "408100",
+            "locations": "神奈川県横浜市西区みなとみらい",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:34:16 GMT",
+            "description": "ト   ■言語  ・<b>Java</b>、JavaScript、HTML   ■必須スキル  ・<b>Java</b>、JavaScript、HTMLでのWebアプリ開発経験   勤務条件   お仕事分野   システムエンジニア（SE） / プログラマー / アプ...補足   企業カレンダーあり。   必要経験   プログラマー（PG）、テスティング(IT)   必要スキル   HTML・XML、JavaScript、<b>Java</b>   ※就業場所が官庁、学校、病院の場合、「屋内禁煙」は「敷地内禁煙」、「屋内...",
+            "salary_currency_code": "JPY",
+            "salary": "408100 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-131a41c8b1fb89f98254c7c6f5418adbf4c3f5d76b96b6b4dbba884488cbba54c4dff9638de5c7c3f7ff8af0800bd4bba683f6d4073e411509638bfbfac6e3cd499796badeac92668af2b892b7c68fc4f347819ce58be8cc2b18051d195758/c95c141accc84df3418b385ba1a618f8.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【みなとみらいエリア】Sier／Java/JavaScript/HTMLでのWebアプリ開発経験経験いかせます／土日祝休み／2600円以上のお仕事です",
+            "salary_max": "408100",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:41:00 GMT",
+            "description": "内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。  （主に、<b>Java</b>、C#、VB、PHP、c++等）   自動...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1d4a41ceafd38cec9e97a3e58be2ce84e78897ebda90a893deaea687edcc07928dc08fc5d082f681548bebc4c9a984ceaee28ced8776c6cecb86cad980b3d5488ed794ceae8c2f82c2cdc0d09e86fbc04e84e78897ebda90a893deaea687edcc259c9be94887c3c48284ca8dfad228c8bf9acee6d68da4f2c3e0c8418de5cdc3f7db8af192c8bea6cee6cd6f154316505955/b3951382707ea17839981bf1835cd41e.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<名古屋>システムエンジニア（C，C#，JAVA等）【正社員】【交通費支給】【車・バイク通勤OK】【最寄り駅】配属先による※勤務地欄参照",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:27:49 GMT",
+            "description": "の内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。   ＜開発環境＞  C言語、C++、C#、<b>JAVA</b>、VB.net等   ＜経験...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4841cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc26461756585156/67dbfadbc39d3dc28c25ba498cec44af.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（C，C#，JAVA等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県掛川市",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000",
+            "locations": "東京都品川区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:17:54 GMT",
+            "description": "【仕事内容】【時短×契約社員】週3日～時短で働けるSE（<b>Java</b>、PHP、Swift、Objective-C、JavaScript、HTML5）*しゅふママ活躍！,  勤務地：  東京都品川区【住所】東京都品川区  【アクセス】勤務...内容：  経験が活かせるSEのお仕事▼開発系エンジニアの募集です。  勤務地は受託先(東京都内)となります。  契約社員として時短でSEのご経験を活かして働けます◎  *使用言語は、<b>Java</b>、PHP、Swift、Objective-C...",
+            "salary_currency_code": "JPY",
+            "salary": "3000 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b1a41ceafd38cedb297a3eb4889e9cd8097c58ffdc0cfbab70dcee6d88da4e1c3e0e089e9cd82b4c56a8fefa7c39ea80d8dc4c4c2eaab8befcb89f3d40093ccd796b98a3fceafd38cedb297a3eb4889e9cd8097c58ffdc0cfbab70dc9decb87a7eec8d1d387fac88295d26a8af19dc8beb8cee7e74ecff38a86dfd089f3d6c5e5e24997908fd4adb78cddd5253b42090d021a0e1345542b4923627b3c1f1551585d13/5f20d2527386f4b8605a0a427bb015af.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【時短×契約社員】週3日～時短で働けるSE（Java、PHP、Swift、Objective-C、JavaScript、HTML5）*しゅふママ活躍！【】【交通費支給】【服装/髪型自由】【駅チカ・駅ナカ】【中高年が活躍中】【主婦・主夫歓迎】【シフト自由/自己申告制】【長期歓迎】【高収入】【正社員登用あり】",
+            "salary_max": "3000",
+            "company": ""
+        },
+        {
+            "salary_min": "1360",
+            "locations": "愛媛県",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:55:46 GMT",
+            "description": "［仕事詳細］  <b>Java</b>言語による業務系アプリケーションの設計・開発・テスト  ・生産管理システムの知識あれば尚良し  ［勤務地（住所）］  新居浜市新田町  ［待遇・福利厚生］  健康・厚生年金;雇用保険;無料駐車場;休憩室有り;禁煙...・分煙  ［休日・休暇］  土日祝（年間休日119日）  ［応募資格］  ・<b>Java</b>言語、eclipse環境での開発  ・DataBase、フレームワークを使用した開発...",
+            "salary_currency_code": "JPY",
+            "salary": "1360 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4d41c8b1fb89f98254c7c6f5418adbf42292dcd79aab881dceafd98cedb297a3eb4888f8ec82b9ce6a8cefb5cdaa88cac1f24ec3c8b1438fc5d083d9ba90d7f49ab3913fcbb1e987cda29ca7c98ff5df478284ca8dfad20acea1b2cbf3ca8982e9c4dff96389c3dbc4c8f28dccb7c2a4970d81c1e2c2f6b96250525a5454/1e8a85b50fc8369b99dec7960e479f59.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "ソフト開発/Java言語/プログラマー/土日祝休|32131489【派遣社員】【服装自由】【社会保険完備】【交通費支給】【オフィス内禁煙・分煙】【愛媛県】",
+            "salary_max": "1360",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:47:55 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上】電子カルテ連携システム開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・SpringBootを使用したソケット連携アプリ開発  ・SpringBootを使用したWEB...画面の開発  ・ドキュメント作成（仕様、設計、テスト項目書）   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプリ,Postgresql,TomCat,Git...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1a41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8af19dc8bf94cee7e98da4d4008afeea89fedf0092c5ca948e95d8be8c6689ee8291abfc4887c3c48284ca8dfad228cd908ecac0d18bb4d50084ccdf8bf4c42293ccd796b98a1dcbadc18ae5b87518505a5958/ebe2594f73e44bf5fb894114042cdd2e.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "システム開発/【Java（SpringBoot）経験1年以上】電子カルテ連携システム開発【正社員】【ソフトウェア・情報処理】【急募求人】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県磐田市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:38:06 GMT",
+            "description": "&lt;静岡県西部&gt;大手メーカー内常駐SE（C,C#,<b>JAVA</b>等）   ブランクある方も歓迎。経験が浅くても充実した研修制度で安心！   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。   &lt;開発環境&gt;  C言語、C++、C#、<b>JAVA</b>、VB.net等   &lt;経験のある方へ&gt;  過去の学習経験やスキルに応じて、お願いするポジションを検討します。   &lt;経験の浅い方へ&gt;  まずは、運用...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121c41674c120e4ec1e88a84dded87cff62237482a71c9a89cceaed88cec8c97a3df4887f2cd8295f881c1e028cda187cad1e3878fe70085f4cb89d2e9c9dcfb81f3af297e0dcbf8c58992f8c9cbfb605654571542/f6da2a43217edfa9494a04be61ef9eac.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<静岡県西部>大手メーカー内常駐SE（C,C#,JAVA等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "2300",
+            "locations": "京都市中京区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:26:30 GMT",
+            "description": "◆フルリモートワーク相談可  ◆残業少なめ（10時間以内）  ◆<b>Java</b>等での開発経験活かせる  ◆駅から徒歩圏内で通勤便利です  ◆複数路線から通勤可、好立地オフィス   ※はじめての方はまず からお願いします。   給与 時給2200...のお仕事で通勤交通費を支給！  仕事内容 製造業界にてWebシステムの開発を含めた業務をご担当いただきます。   【工程】  基本設計～詳細設計～開発～単体テスト～結合テスト   【環境】  Windows、<b>Java</b>、PHP  必要なスキル・経験 開発エンジニア  <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "2300 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1c1c41ceafd38cec9e97a3e58be2ce478cb6ff8ff0c9287c584f0d8df9e5c0ed9a6181f7e580fc9a542208054b29774c5b054f39421622340d034e84e79797ead090a9addeae8d655d591146195b/1a71d75fe9efbf6293b575c58e088ebf.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【フルリモートワーク＊Java】Webシステムの開発等",
+            "salary_max": "2300",
+            "company": "パーソルクロステクノロジー株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:20:22 GMT",
+            "description": "&lt;掛川市&gt;システムエンジニア（<b>JAVA</b>・Python等）   大手メーカー内常駐で、ソフトウェア開発の経験を積むチャンスです。   [お仕事内容]  &lt;ミッション&gt;  大手メーカーからの依頼に基づき、ソフ...トウェアを開発しています。  あなたにはその一員としての役割をお願いします。   &lt;仕事内容&gt;  大手メーカー内（当社請負先）でのソフトウェア開発です。  Webアプリケーション開発（設計／製造／評価）を担当します。   &lt;開発環境&gt;  <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1241ceafd38cec9e97a3e58be2ce4783bcde8fdcffc383ae0d6705190f2597a2cb8be2dd84e79897ebe290a8891dcbb1ce88dbab9d88f0482b0f1104223e091f120acda187cad1e3878fe72280ead68de5dcc3f7ee8af08ac8bf85cee7dc8da5ccc3e0e382ecc545c6e8c28ec6a6c295be2f87edc6c4f79380ead98de4eec3f6ca4995b681da98a18dc7fd26461756585156/e7d3a9b784bc1c8240138be069eaff25.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（JAVA・Python等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "4500000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:18:00 GMT",
+            "description": "フスターターな方  ［応募資格］  【必須】  ・システム開発の実務経験をお持ちの方（目安2年以上）   【尚可】  ・<b>Java</b>でのシステム開発経験  ・アジャイル開発経験をお持ちの方  ・Webサーバー、APサーバーの設定経験   ■環境：実装言語は<b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "4500000 - 7000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191b41ceafcc8ced9497a2db8be2e584e7825481fff8cdb2870d6705190f25928dc08fc5d082f681548dc7ffcfae95c4add58bd2b646c6f4cd6388cac6c7d0d68ce08b0bda899381fccf25928dc08fc5d082f681548bebdbc9a88eceafdc8cedac97a2c16a87c3c48284ca8dfad20ac2bd9cc9d8fe5cc1e3856250525c5f53/04849fa11b9c1139728ea045c791d9ad.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【リモート】Java開発エンジニア【正社員】【その他】【完全週休2日制】【東京都】",
+            "salary_max": "7000000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:15:50 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上】新ポンプシステム開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・<b>Java</b>でのマルチスレッドプログラミング＋ポンプとのソケット通信によるアプリ開発  ・ドキ...ュメント作成（仕様、設計、テスト項目書）   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプリ,Postgresql,TomCat,Git,Atlassian   ■場 所：新宿  ■時...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1a41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8af19dc8bf94cee7e98da4d4008afeea89fedf0092c5ca948e95d8be8c6689ee8291abfc4887c3c48284ca8dfad228cd908ecac0d18bb4d50084ccdf8bf4c42293ccd796b98a1dcbadc18ae5b87518505a5958/315d7b6422d8f378a4cd43a6d11e76c2.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "システム開発/【Java（SpringBoot）経験1年以上】新ポンプシステム開発【正社員】【ソフトウェア・情報処理】【急募求人】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:14:20 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上/Androidスマホアプリ（C#orXamarin）】スマホアプリ開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・技術調査（スマホアプリ間呼び出し等）  ・ドキ...ュメント作成（仕様、設計、テスト項目書）  ・WEB（<b>Java</b>）開発  ・Androidスマホアプリ（C#、Xamarin）開発   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプ...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191d41ceafdd8cedb997a3f84882ecc586a3e38bead90ac2aba6cafdd56c661a441107080a472f410209499abca0dab497662e0043064f0a0c418de5c7c3f7ff8af0800bd4bba683f6d42597a2c18be2f984e68a5481fff8cdb2870d6705190f25928dc08fc5d082f681548bebd1c9a8aaceaece4f87b1ffc7fad2605654571842/b48427d6578521dd2353aed2a8bac97f.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "スマホアプリ開発/【Java（SpringBoot）経験1年以上 / Androidスマホアプリ（C# or Xamarin）】スマホアプリ開発【正社員】【ソフトウェア・情報処理】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:09:10 GMT",
+            "description": "メーカー内（当社請負先）でのソフトウェア開発です。  Webアプリケーション開発（設計／製造／評価）を担当します。   ＜開発環境＞  <b>Java</b>／Python／HTML／JavaScript／CSS   ＜経験のある方へ＞  過去...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4841cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc26461756585156/b7eff359ecc628e1063f1ad3ef2510ef.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（JAVA・Python等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県掛川市・請負先",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県磐田市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:07:43 GMT",
+            "description": "の内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。   ＜開発環境＞  C言語、C++、C#、<b>JAVA</b>、VB.net等   ＜経験...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-131b41cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc264c13515d57/6116f53ee9afab40627df54cd068a9ec.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<静岡県西部>大手メーカー内常駐SE（C，C#，JAVA等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県磐田市",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:06:36 GMT",
+            "description": "&lt;掛川市&gt;システムエンジニア（C,C#,<b>JAVA</b>等）   ブランクある方も歓迎。経験が浅くても充実した研修制度で安心！   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。   &lt;開発環境&gt;  C言語、C++、C#、<b>JAVA</b>、VB.net等   &lt;経験のある方へ&gt;  過去の学習経験やスキルに応じて、お願いするポジションを検討します。   &lt;経験の浅い方へ&gt;  まずは、運用...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1241ceafd38cec9e97a3e58be2ce4783bcde8fdcffc383ae0d6705190f2597a2cb8be2dd84e79897ebe290a8891dcbb1ce88dbab9d88f0482b0f1104223e091f120acda187cad1e3878fe72280ead68de5dcc3f7ee8af08ac8bf85cee7dc8da5ccc3e0e382ecc545c6e8c28ec6a6c295be2f87edc6c4f79380ead98de4eec3f6ca4995b681da98a18dc7fd26461756585156/e105f17262db21312a8de7744b5d6235.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（C,C#,JAVA等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:05:26 GMT",
+            "description": "&lt;名古屋&gt;システムエンジニア（C,C#,<b>JAVA</b>等）   大手企業からの受託案件。安定した環境、綺麗なオフィスで働けます。   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。  （主に、<b>Java</b>、C#、VB、PHP、c++等）   自動車系企業や電力系企業等、大手企業や上場企業様の案件が中心です。  開発環境・言語・インフラ環境など、過去の経験のジャンルは問いません。   &lt;経験のある方へ&gt;  過去...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4f4841ceafd38cec9e97a3e58be2ce4786a2dc8beac0c9a985ceaeef8cec857663432b6324061341548bebdbc9a88eceafdc8cedac97a2c16a224e2d0456156a8af19dc8bf94cee7e98da4d4002909170f665717425b5847/d81fd3d7fa4991d3cd5034c1b466ac87.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<名古屋>システムエンジニア（C,C#,JAVA等）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "2400",
+            "locations": "福岡市博多区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 05:52:12 GMT",
+            "description": "向けシステム刷新に詳細設計から携わっていただきます。   【詳細】  ・2023/11～2023/12 詳細設計  ・2024/01～2023/04 製造   【工程】  詳細設計～製造～テスト   【環境】  <b>Java</b>、SQL、Linux   【体制】  20名   【期間】  2024年4月末...まで   【出社予定日数】  月4～8日  必要なスキル・経験 開発エンジニア  Linux  <b>Java</b>  SQL  勤務時間 (1)09:00～17:30(実働時間07時間30分)  【残業】月20～40時間程度   休日 土日祝 ※パー...",
+            "salary_currency_code": "JPY",
+            "salary": "2400 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191241ceafd38cec9e97a3e58be2ce478ca7e580f7fe28615c5b4c4486e9b69cbeee6a82ecd086a2cd8beaf5c9a89d0d6705190f259da7f280ffe36586a2c38bebcac9a8bbceaec46e5c1042125658/74fb6fdae6b8ee330eae4d017fdd7216.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【リモートワーク可＊Java等】金融向けシステム刷新",
+            "salary_max": "2400",
+            "company": "パーソルクロステクノロジー株式会社"
+        },
+        {
+            "salary_min": "220000",
+            "locations": "埼玉県さいたま市",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:55:01 GMT",
+            "description": "【職種】  【未経験OKの<b>Java</b>プログラマー/正社員】月給22万円～25万円/JR北新地駅より徒歩1分/未経験OK/無資格OK/男女ともに活躍中/土日祝休み/昇給あり/賞与あり/交通費支給/研修あり/住宅手当  【雇用形態】  正社...",
+            "salary_currency_code": "JPY",
+            "salary": "220000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4c1c41c8b1fb89f9829385fe4885d2f686a1cb488fde89cc9993c8f7ce4ecfc7be87d0ef8de6e7c3f6e26b96b6b4dbba88448bd2b697a1dc4885d4c38ca0ee80dbc8ccbf92ca98c24f888ad7c7c7d684fdc667c5e8f78fe48f0bd991bc87eed10792bcc98fd4e28ecdb31b0349958788da899381fccf2591bcfc8ef6cb47819ce58be8cc0acd908ecac0d18bb4d52286f4fe88f0c0c7d1f5499796badeac924489c3849384dd8df2cf665d13475c5e/5c3110e7250318100c20326e462570fd.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／【未経験OKのJavaプログラマー/正社員】月給22万円～25万円/JR北新地駅より徒歩1分/未経験OK/無資格OK/男女ともに活躍中/土日祝休み/昇給あり/賞与あり/交通費支給/研修あり/住宅手当",
+            "salary_max": "250000",
+            "company": "日本インターシステムズ株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県刈谷市",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:50:36 GMT",
+            "description": "【職種】  <b>JAVA</b>プログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エン...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1f1241c8b1fb89f98254c4dff982efd845c6d9cb8ed794ceae8c0d81caddc1f487438efdc480d0ac9dc0fa71cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3438fe5cf8fd6a792c8d571cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3618dfdf181f28593cdf453ce97acceacdb4f888ad7c7c7d684fdc645c6e8c28ec6a6c295be2f81f3f1c1e385438cddff84e49f548ef5d9cd9eb1c485f74f8694f3c6c3d460565454174d/b03dbede808728c0d7e953157a36bd26.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／JAVAプログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エンジニア 未経験/プログラマー 未経験/完全週休/未経験OK 正社員/正社員募集 女性活躍中/正社員大募集/未経験 se/無資格 未経験 正社員/無資格 未経験でもOK/女性活躍中 無資格/20代 正社員/it エンジニア 未経験者歓迎/ものづくり/駅チカ",
+            "salary_max": "250000",
+            "company": "グリーンシステム株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中村区",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:50:19 GMT",
+            "description": "【職種】  <b>JAVA</b>プログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エン...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4f1341c8b1fb89f98254c4dff982efd845c6d9cb8ed794ceae8c0d81caddc1f487438efdc480d0ac9dc0fa71cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3438fe5cf8fd6a792c8d571cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3618dfdf181f28593cdf453ce97acceacdb4f888ad7c7c7d684fdc645c6e8c28ec6a6c295be2f81f3f1c1e385438cddff84e49f548ef5d9cd9eb1c485f74f8694f3c6c3d4605c505313455e/211e63a65bde4adf852422ac3b7abfcb.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／JAVAプログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エンジニア 未経験/プログラマー 未経験/完全週休/未経験OK 正社員/正社員募集 女性活躍中/正社員大募集/未経験 se/無資格 未経験 正社員/無資格 未経験でもOK/女性活躍中 無資格/20代 正社員/it エンジニア 未経験者歓迎/ものづくり/駅チカ",
+            "salary_max": "250000",
+            "company": "グリーンシステム株式会社"
+        }
+    ],
+    "min_salary": [
+        {
+            "salary_min": "1360",
+            "locations": "愛媛県",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:55:46 GMT",
+            "description": "［仕事詳細］  <b>Java</b>言語による業務系アプリケーションの設計・開発・テスト  ・生産管理システムの知識あれば尚良し  ［勤務地（住所）］  新居浜市新田町  ［待遇・福利厚生］  健康・厚生年金;雇用保険;無料駐車場;休憩室有り;禁煙...・分煙  ［休日・休暇］  土日祝（年間休日119日）  ［応募資格］  ・<b>Java</b>言語、eclipse環境での開発  ・DataBase、フレームワークを使用した開発...",
+            "salary_currency_code": "JPY",
+            "salary": "1360 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4d41c8b1fb89f98254c7c6f5418adbf42292dcd79aab881dceafd98cedb297a3eb4888f8ec82b9ce6a8cefb5cdaa88cac1f24ec3c8b1438fc5d083d9ba90d7f49ab3913fcbb1e987cda29ca7c98ff5df478284ca8dfad20acea1b2cbf3ca8982e9c4dff96389c3dbc4c8f28dccb7c2a4970d81c1e2c2f6b96250525a5454/1e8a85b50fc8369b99dec7960e479f59.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "ソフト開発/Java言語/プログラマー/土日祝休|32131489【派遣社員】【服装自由】【社会保険完備】【交通費支給】【オフィス内禁煙・分煙】【愛媛県】",
+            "salary_max": "1360",
+            "company": ""
+        },
+        {
+            "salary_min": "1700",
+            "locations": "群馬県高崎市",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:55:33 GMT",
+            "description": "【仕事内容】【時給1700円×在宅勤務あり】システム開発 ＠高崎  未経験OK！開発言語の<b>Java</b>もしくはC＃ができる方ゆったり9時半〜就業開始♪週1〜2日在宅勤務ありデニム＆スニーカーOK★髪色＆ネイルも楽しめます♪通勤...交通費の支給&半休制度あり★来社不要★スマホでテンプに登録,高崎＼未経験OK◎／業務系システム開発！<b>Java</b>もしくはC＃を使用します  ●総務系、財務系、医療系、販売管理システムなどの業務系システム開発●コールセンター、マーケティング、デー...",
+            "salary_currency_code": "JPY",
+            "salary": "1700 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1f1241cbb1ce88dbab9d88f04887f2ea8d83f14880d880cea3a6c5e3c589b3c52286f4c98bc9e00097eade90a892deaeab87ecce079db6e88ff8d46583bcde8fdcffc383ae0dcee7ff8da5d0c3e1c7418addc1c9f4f281c19129774c5b054f87b1ffc7fad24188fbcfc7c1e480dbb929deaf9a87edd7c4f7a680ebc14e81f98a93dde59a82b81d674c120e6f1f4713525d/969ecc34064838ad1d4b2cce494425c8.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "高崎＼未経験OK◎／業務系システム開発！JavaもしくはC＃を使用します【】【交通費支給】【未経験者歓迎】【服装/髪型自由】【駅チカ・駅ナカ】【車・バイク通勤OK】【在宅勤務・リモートワーク可】【長期歓迎】【最寄り駅】南高崎駅 徒歩3分",
+            "salary_max": "1700",
+            "company": ""
+        },
+        {
+            "salary_min": "2000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:29:00 GMT",
+            "description": "・能力による）   職種：  ［<b>Java</b>］制作管理システムの再構築業務   勤務地：  愛知県名古屋市中区／最寄駅：伏見（愛知県）駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み][短期...ワーク]   既存制作管理システムの再構築業務です<b>Java</b>やSQLの実務経験あればフル在宅のお仕事です（初回出社可能性あり）期間限定の案件です   【求人情報】  職種：  ［<b>Java</b>］制作管理システムの再構築業務   仕事内容：  ◆既存...",
+            "salary_currency_code": "JPY",
+            "salary": "2000 - 2200 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121341ceafd38cec9e97a3e58be2ce47828ed58ff9f528c8bf9acee6d68da4f2c3e0c84188c2c8c5fff16b96a29dd990b14488c08693b0e56a82ecd086a2cd8beaf5c9a89d0d6705190f2591a8d58cdcf2665717425b5847/69940644ca02068e64cc97b4a907be21.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "［Java］制作管理システムの再構築業務",
+            "salary_max": "2200",
+            "company": ""
+        },
+        {
+            "salary_min": "2000",
+            "locations": "北海道札幌市中央区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:13:56 GMT",
+            "description": "パーソルエクセルHRパートナーズ株式会社 テクニカルキャリアサポート部/23-0578624  &lt;派遣社員&gt;   ［在宅あり！駅近！］＼時給2000円／認証アプリ開発・<b>Java</b>   給与：  時給2000円   職種...：  ◆認証アプリケーション開発／<b>Java</b>   勤務地：  北海道札幌市中央区／最寄駅：さっぽろ駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み]   <b>Java</b>を使...",
+            "salary_currency_code": "JPY",
+            "salary": "2000 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1c1b41ceafc68cedb097a3c94888f8ec82b9ce4823125c4a3fceafc68cedb097a3c94888f8ec82b9ce6a80e5a1cca4970d2e0e1846766a021e004e84e78297ebfe90a9813fceafc68cedb097a3c98be3df84e69c97eade90a98cdeae9e4486f8ac93b9d9695356525c114d/eded27afbc078dc6829e3d7d814c177c.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "認証アプリケーション開発／Java",
+            "salary_max": "2000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:41:00 GMT",
+            "description": "内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。  （主に、<b>Java</b>、C#、VB、PHP、c++等）   自動...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1d4a41ceafd38cec9e97a3e58be2ce84e78897ebda90a893deaea687edcc07928dc08fc5d082f681548bebc4c9a984ceaee28ced8776c6cecb86cad980b3d5488ed794ceae8c2f82c2cdc0d09e86fbc04e84e78897ebda90a893deaea687edcc259c9be94887c3c48284ca8dfad228c8bf9acee6d68da4f2c3e0c8418de5cdc3f7db8af192c8bea6cee6cd6f154316505955/b3951382707ea17839981bf1835cd41e.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<名古屋>システムエンジニア（C，C#，JAVA等）【正社員】【交通費支給】【車・バイク通勤OK】【最寄り駅】配属先による※勤務地欄参照",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:27:49 GMT",
+            "description": "の内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。   ＜開発環境＞  C言語、C++、C#、<b>JAVA</b>、VB.net等   ＜経験...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4841cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc26461756585156/67dbfadbc39d3dc28c25ba498cec44af.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（C，C#，JAVA等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県掛川市",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県磐田市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:38:06 GMT",
+            "description": "&lt;静岡県西部&gt;大手メーカー内常駐SE（C,C#,<b>JAVA</b>等）   ブランクある方も歓迎。経験が浅くても充実した研修制度で安心！   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。   &lt;開発環境&gt;  C言語、C++、C#、<b>JAVA</b>、VB.net等   &lt;経験のある方へ&gt;  過去の学習経験やスキルに応じて、お願いするポジションを検討します。   &lt;経験の浅い方へ&gt;  まずは、運用...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121c41674c120e4ec1e88a84dded87cff62237482a71c9a89cceaed88cec8c97a3df4887f2cd8295f881c1e028cda187cad1e3878fe70085f4cb89d2e9c9dcfb81f3af297e0dcbf8c58992f8c9cbfb605654571542/f6da2a43217edfa9494a04be61ef9eac.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<静岡県西部>大手メーカー内常駐SE（C,C#,JAVA等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:20:22 GMT",
+            "description": "&lt;掛川市&gt;システムエンジニア（<b>JAVA</b>・Python等）   大手メーカー内常駐で、ソフトウェア開発の経験を積むチャンスです。   [お仕事内容]  &lt;ミッション&gt;  大手メーカーからの依頼に基づき、ソフ...トウェアを開発しています。  あなたにはその一員としての役割をお願いします。   &lt;仕事内容&gt;  大手メーカー内（当社請負先）でのソフトウェア開発です。  Webアプリケーション開発（設計／製造／評価）を担当します。   &lt;開発環境&gt;  <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1241ceafd38cec9e97a3e58be2ce4783bcde8fdcffc383ae0d6705190f2597a2cb8be2dd84e79897ebe290a8891dcbb1ce88dbab9d88f0482b0f1104223e091f120acda187cad1e3878fe72280ead68de5dcc3f7ee8af08ac8bf85cee7dc8da5ccc3e0e382ecc545c6e8c28ec6a6c295be2f87edc6c4f79380ead98de4eec3f6ca4995b681da98a18dc7fd26461756585156/e7d3a9b784bc1c8240138be069eaff25.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（JAVA・Python等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:09:10 GMT",
+            "description": "メーカー内（当社請負先）でのソフトウェア開発です。  Webアプリケーション開発（設計／製造／評価）を担当します。   ＜開発環境＞  <b>Java</b>／Python／HTML／JavaScript／CSS   ＜経験のある方へ＞  過去...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b4841cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc26461756585156/b7eff359ecc628e1063f1ad3ef2510ef.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（JAVA・Python等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県掛川市・請負先",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県磐田市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:07:43 GMT",
+            "description": "の内容＞  オープン系システムを中心に、設計・開発・検証・運用・保守等、一連の工程に携わって頂きます。  スキルに応じて、お任せする工程やプロジェクトは勘案致します。   ＜開発環境＞  C言語、C++、C#、<b>JAVA</b>、VB.net等   ＜経験...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-131b41cbb1ce88dbab9d88f04886cad980b3d5488af0bac8bf89cee6c04ec3ce848ae8fb86d5de2292c5ca948e95d8be8c4489f28d9395ef81c9fd4783bcde8fdcffc383aec5ade16d88b1c4c5eefa4188fbcfc7c1e480dbb90bdb808e83cbd0c2e781618ecccd80c19e91fbc853ccb797ca98e886c6b454c4d9cc88eefd8d92cf6a8fef80cc88a1c4ccfc4ec1d98384ccdf8bf4c40093c4c59790a7dbbb9d81e2fc264c13515d57/6116f53ee9afab40627df54cd068a9ec.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<静岡県西部>大手メーカー内常駐SE（C，C#，JAVA等）【正社員】【交通費支給】【未経験者歓迎】【新卒・第二新卒歓迎】【車・バイク通勤OK】【最寄り駅】静岡県磐田市",
+            "salary_max": "210000",
+            "company": ""
+        },
+        {
+            "salary_min": "210000",
+            "locations": "静岡県掛川市",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:06:36 GMT",
+            "description": "&lt;掛川市&gt;システムエンジニア（C,C#,<b>JAVA</b>等）   ブランクある方も歓迎。経験が浅くても充実した研修制度で安心！   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。   &lt;開発環境&gt;  C言語、C++、C#、<b>JAVA</b>、VB.net等   &lt;経験のある方へ&gt;  過去の学習経験やスキルに応じて、お願いするポジションを検討します。   &lt;経験の浅い方へ&gt;  まずは、運用...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1241ceafd38cec9e97a3e58be2ce4783bcde8fdcffc383ae0d6705190f2597a2cb8be2dd84e79897ebe290a8891dcbb1ce88dbab9d88f0482b0f1104223e091f120acda187cad1e3878fe72280ead68de5dcc3f7ee8af08ac8bf85cee7dc8da5ccc3e0e382ecc545c6e8c28ec6a6c295be2f87edc6c4f79380ead98de4eec3f6ca4995b681da98a18dc7fd26461756585156/e105f17262db21312a8de7744b5d6235.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<掛川市>システムエンジニア（C,C#,JAVA等）（未経験者歓迎）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中区",
+            "salary_type": "M",
+            "date": "Sat, 30 Sep 2023 07:05:26 GMT",
+            "description": "&lt;名古屋&gt;システムエンジニア（C,C#,<b>JAVA</b>等）   大手企業からの受託案件。安定した環境、綺麗なオフィスで働けます。   [お仕事内容]  &lt;ミッション&gt;  大手企業やメーカーからの依頼に基づき、ソフ...せする工程やプロジェクトは勘案致します。  （主に、<b>Java</b>、C#、VB、PHP、c++等）   自動車系企業や電力系企業等、大手企業や上場企業様の案件が中心です。  開発環境・言語・インフラ環境など、過去の経験のジャンルは問いません。   &lt;経験のある方へ&gt;  過去...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 350000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4f4841ceafd38cec9e97a3e58be2ce4786a2dc8beac0c9a985ceaeef8cec857663432b6324061341548bebdbc9a88eceafdc8cedac97a2c16a224e2d0456156a8af19dc8bf94cee7e98da4d4002909170f665717425b5847/d81fd3d7fa4991d3cd5034c1b466ac87.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "<名古屋>システムエンジニア（C,C#,JAVA等）",
+            "salary_max": "350000",
+            "company": "ユニインフォーメーション株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県刈谷市",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:50:36 GMT",
+            "description": "【職種】  <b>JAVA</b>プログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エン...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1f1241c8b1fb89f98254c4dff982efd845c6d9cb8ed794ceae8c0d81caddc1f487438efdc480d0ac9dc0fa71cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3438fe5cf8fd6a792c8d571cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3618dfdf181f28593cdf453ce97acceacdb4f888ad7c7c7d684fdc645c6e8c28ec6a6c295be2f81f3f1c1e385438cddff84e49f548ef5d9cd9eb1c485f74f8694f3c6c3d460565454174d/b03dbede808728c0d7e953157a36bd26.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／JAVAプログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エンジニア 未経験/プログラマー 未経験/完全週休/未経験OK 正社員/正社員募集 女性活躍中/正社員大募集/未経験 se/無資格 未経験 正社員/無資格 未経験でもOK/女性活躍中 無資格/20代 正社員/it エンジニア 未経験者歓迎/ものづくり/駅チカ",
+            "salary_max": "250000",
+            "company": "グリーンシステム株式会社"
+        },
+        {
+            "salary_min": "210000",
+            "locations": "愛知県名古屋市中村区",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:50:19 GMT",
+            "description": "【職種】  <b>JAVA</b>プログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エン...",
+            "salary_currency_code": "JPY",
+            "salary": "210000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4f1341c8b1fb89f98254c4dff982efd845c6d9cb8ed794ceae8c0d81caddc1f487438efdc480d0ac9dc0fa71cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3438fe5cf8fd6a792c8d571cfb7a2cbbac14f8a9be5c3e2d74188cac6c7d0d68ce08b0bdbb18783dae2cedcb3618dfdf181f28593cdf453ce97acceacdb4f888ad7c7c7d684fdc645c6e8c28ec6a6c295be2f81f3f1c1e385438cddff84e49f548ef5d9cd9eb1c485f74f8694f3c6c3d4605c505313455e/211e63a65bde4adf852422ac3b7abfcb.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／JAVAプログラマー/正社員/月給21万円～25万円/JR北新地駅より徒歩1分/未経験可/土日祝休み/120名の大募集/未経験開発エンジニア/未経験it エンジニア/webエンジニア 未経験/未経験 プログラミング/エンジニア 未経験/プログラマー 未経験/完全週休/未経験OK 正社員/正社員募集 女性活躍中/正社員大募集/未経験 se/無資格 未経験 正社員/無資格 未経験でもOK/女性活躍中 無資格/20代 正社員/it エンジニア 未経験者歓迎/ものづくり/駅チカ",
+            "salary_max": "250000",
+            "company": "グリーンシステム株式会社"
+        },
+        {
+            "salary_min": "220000",
+            "locations": "埼玉県さいたま市",
+            "salary_type": "M",
+            "date": "Fri, 29 Sep 2023 22:55:01 GMT",
+            "description": "【職種】  【未経験OKの<b>Java</b>プログラマー/正社員】月給22万円～25万円/JR北新地駅より徒歩1分/未経験OK/無資格OK/男女ともに活躍中/土日祝休み/昇給あり/賞与あり/交通費支給/研修あり/住宅手当  【雇用形態】  正社...",
+            "salary_currency_code": "JPY",
+            "salary": "220000 - 250000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4c1c41c8b1fb89f9829385fe4885d2f686a1cb488fde89cc9993c8f7ce4ecfc7be87d0ef8de6e7c3f6e26b96b6b4dbba88448bd2b697a1dc4885d4c38ca0ee80dbc8ccbf92ca98c24f888ad7c7c7d684fdc667c5e8f78fe48f0bd991bc87eed10792bcc98fd4e28ecdb31b0349958788da899381fccf2591bcfc8ef6cb47819ce58be8cc0acd908ecac0d18bb4d52286f4fe88f0c0c7d1f5499796badeac924489c3849384dd8df2cf665d13475c5e/5c3110e7250318100c20326e462570fd.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "プログラマー／【未経験OKのJavaプログラマー/正社員】月給22万円～25万円/JR北新地駅より徒歩1分/未経験OK/無資格OK/男女ともに活躍中/土日祝休み/昇給あり/賞与あり/交通費支給/研修あり/住宅手当",
+            "salary_max": "250000",
+            "company": "日本インターシステムズ株式会社"
+        },
+        {
+            "salary_min": "2300",
+            "locations": "京都市中京区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:26:30 GMT",
+            "description": "◆フルリモートワーク相談可  ◆残業少なめ（10時間以内）  ◆<b>Java</b>等での開発経験活かせる  ◆駅から徒歩圏内で通勤便利です  ◆複数路線から通勤可、好立地オフィス   ※はじめての方はまず からお願いします。   給与 時給2200...のお仕事で通勤交通費を支給！  仕事内容 製造業界にてWebシステムの開発を含めた業務をご担当いただきます。   【工程】  基本設計～詳細設計～開発～単体テスト～結合テスト   【環境】  Windows、<b>Java</b>、PHP  必要なスキル・経験 開発エンジニア  <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "2300 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1c1c41ceafd38cec9e97a3e58be2ce478cb6ff8ff0c9287c584f0d8df9e5c0ed9a6181f7e580fc9a542208054b29774c5b054f39421622340d034e84e79797ead090a9addeae8d655d591146195b/1a71d75fe9efbf6293b575c58e088ebf.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【フルリモートワーク＊Java】Webシステムの開発等",
+            "salary_max": "2300",
+            "company": "パーソルクロステクノロジー株式会社"
+        },
+        {
+            "salary_min": "2400",
+            "locations": "福岡市博多区",
+            "salary_type": "H",
+            "date": "Thu, 28 Sep 2023 07:08:50 GMT",
+            "description": "パーソルエクセルHRパートナーズ株式会社 テクニカルキャリアサポート部/23-0580006  &lt;派遣社員&gt;   ［在宅あり・信販系決済代行システム開発］<b>Java</b>・JavaScript   給与：  時給2400円〜2700円...（経験・能力による）   職種：  ◆信販系決済代行システム開発（<b>Java</b>）   勤務地：  福岡県福岡市博多区／最寄駅：博多駅   [時給1000円以上][時給1200円以上][社会保険あり][大手企業・公的機関][土日祝休み]   お気...",
+            "salary_currency_code": "JPY",
+            "salary": "2400 - 2700 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191941ceafd38cec9e97a3e58be2ce478cb6ff8ff0c928c2aba6cafdd54e6d1556026a82ecd086a2cd8beaf5c9a89d0d6705190f259db6e88ff8d46586a2c38bebcac9a8bbceaec46e5c1042125658/e71524f8440d68b614c8e088640bff2c.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "信販系決済代行システム開発（Java）",
+            "salary_max": "2700",
+            "company": ""
+        },
+        {
+            "salary_min": "2400",
+            "locations": "福岡市博多区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 05:52:12 GMT",
+            "description": "向けシステム刷新に詳細設計から携わっていただきます。   【詳細】  ・2023/11～2023/12 詳細設計  ・2024/01～2023/04 製造   【工程】  詳細設計～製造～テスト   【環境】  <b>Java</b>、SQL、Linux   【体制】  20名   【期間】  2024年4月末...まで   【出社予定日数】  月4～8日  必要なスキル・経験 開発エンジニア  Linux  <b>Java</b>  SQL  勤務時間 (1)09:00～17:30(実働時間07時間30分)  【残業】月20～40時間程度   休日 土日祝 ※パー...",
+            "salary_currency_code": "JPY",
+            "salary": "2400 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191241ceafd38cec9e97a3e58be2ce478ca7e580f7fe28615c5b4c4486e9b69cbeee6a82ecd086a2cd8beaf5c9a89d0d6705190f259da7f280ffe36586a2c38bebcac9a8bbceaec46e5c1042125658/74fb6fdae6b8ee330eae4d017fdd7216.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【リモートワーク可＊Java等】金融向けシステム刷新",
+            "salary_max": "2400",
+            "company": "パーソルクロステクノロジー株式会社"
+        },
+        {
+            "salary_min": "3000",
+            "locations": "東京都品川区",
+            "salary_type": "H",
+            "date": "Sat, 30 Sep 2023 07:17:54 GMT",
+            "description": "【仕事内容】【時短×契約社員】週3日～時短で働けるSE（<b>Java</b>、PHP、Swift、Objective-C、JavaScript、HTML5）*しゅふママ活躍！,  勤務地：  東京都品川区【住所】東京都品川区  【アクセス】勤務...内容：  経験が活かせるSEのお仕事▼開発系エンジニアの募集です。  勤務地は受託先(東京都内)となります。  契約社員として時短でSEのご経験を活かして働けます◎  *使用言語は、<b>Java</b>、PHP、Swift、Objective-C...",
+            "salary_currency_code": "JPY",
+            "salary": "3000 per hour",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1b1a41ceafd38cedb297a3eb4889e9cd8097c58ffdc0cfbab70dcee6d88da4e1c3e0e089e9cd82b4c56a8fefa7c39ea80d8dc4c4c2eaab8befcb89f3d40093ccd796b98a3fceafd38cedb297a3eb4889e9cd8097c58ffdc0cfbab70dc9decb87a7eec8d1d387fac88295d26a8af19dc8beb8cee7e74ecff38a86dfd089f3d6c5e5e24997908fd4adb78cddd5253b42090d021a0e1345542b4923627b3c1f1551585d13/5f20d2527386f4b8605a0a427bb015af.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【時短×契約社員】週3日～時短で働けるSE（Java、PHP、Swift、Objective-C、JavaScript、HTML5）*しゅふママ活躍！【】【交通費支給】【服装/髪型自由】【駅チカ・駅ナカ】【中高年が活躍中】【主婦・主夫歓迎】【シフト自由/自己申告制】【長期歓迎】【高収入】【正社員登用あり】",
+            "salary_max": "3000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:47:55 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上】電子カルテ連携システム開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・SpringBootを使用したソケット連携アプリ開発  ・SpringBootを使用したWEB...画面の開発  ・ドキュメント作成（仕様、設計、テスト項目書）   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプリ,Postgresql,TomCat,Git...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1a41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8af19dc8bf94cee7e98da4d4008afeea89fedf0092c5ca948e95d8be8c6689ee8291abfc4887c3c48284ca8dfad228cd908ecac0d18bb4d50084ccdf8bf4c42293ccd796b98a1dcbadc18ae5b87518505a5958/ebe2594f73e44bf5fb894114042cdd2e.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "システム開発/【Java（SpringBoot）経験1年以上】電子カルテ連携システム開発【正社員】【ソフトウェア・情報処理】【急募求人】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:15:50 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上】新ポンプシステム開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・<b>Java</b>でのマルチスレッドプログラミング＋ポンプとのソケット通信によるアプリ開発  ・ドキ...ュメント作成（仕様、設計、テスト項目書）   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプリ,Postgresql,TomCat,Git,Atlassian   ■場 所：新宿  ■時...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4e1a41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8af19dc8bf94cee7e98da4d4008afeea89fedf0092c5ca948e95d8be8c6689ee8291abfc4887c3c48284ca8dfad228cd908ecac0d18bb4d50084ccdf8bf4c42293ccd796b98a1dcbadc18ae5b87518505a5958/315d7b6422d8f378a4cd43a6d11e76c2.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "システム開発/【Java（SpringBoot）経験1年以上】新ポンプシステム開発【正社員】【ソフトウェア・情報処理】【急募求人】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "3000000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:14:20 GMT",
+            "description": "【<b>Java</b>（SpringBoot）経験1年以上/Androidスマホアプリ（C#orXamarin）】スマホアプリ開発  ［仕事詳細］  ■内 容：  参画フェーズ：設計～テスト   ・技術調査（スマホアプリ間呼び出し等）  ・ドキ...ュメント作成（仕様、設計、テスト項目書）  ・WEB（<b>Java</b>）開発  ・Androidスマホアプリ（C#、Xamarin）開発   言語など：<b>Java</b>（SpringBoot,Spring Batch）,C#(Xamarin),  Androidアプ...",
+            "salary_currency_code": "JPY",
+            "salary": "3000000 - 7700000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191d41ceafdd8cedb997a3f84882ecc586a3e38bead90ac2aba6cafdd56c661a441107080a472f410209499abca0dab497662e0043064f0a0c418de5c7c3f7ff8af0800bd4bba683f6d42597a2c18be2f984e68a5481fff8cdb2870d6705190f25928dc08fc5d082f681548bebd1c9a8aaceaece4f87b1ffc7fad2605654571842/b48427d6578521dd2353aed2a8bac97f.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "スマホアプリ開発/【Java（SpringBoot）経験1年以上 / Androidスマホアプリ（C# or Xamarin）】スマホアプリ開発【正社員】【ソフトウェア・情報処理】【東京都】",
+            "salary_max": "7700000",
+            "company": ""
+        },
+        {
+            "salary_min": "400000",
+            "locations": "東京都品川区",
+            "salary_type": "M",
+            "date": "Sat, 23 Sep 2023 07:36:16 GMT",
+            "description": "【COBOL/<b>Java</b>】開発エンジニア   [仕事内容]  大手企業の基幹システム改修支援  その他のシステム改修支援（調査、ドキュメント作成、開発、単体テスト、結合テスト）  業務要望に対する対応（データ登録・抽出、システム修正、機能...テム開発経験（COBOL、JCL、<b>Java</b>、SQL、Oracle ）  プロジェクトリーダー経験  ※COBOLおよび<b>Java</b>は2年以上必須、その他は尚可   【求める人物像】  ・熱いベンチャースピリットを持った方  ・自ら考え、行動できる前向きな方  ・PL...",
+            "salary_currency_code": "JPY",
+            "salary": "400000 - 550000 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1a19416479448cec8f97a3d08be3d684e6ab97eacb53cc869eca89da8afd8676c3e1c082edd486a2cc8beaf8c9a99f0dc4f2e489bece002909170f652c74548bebdbc9a88eceafdc8cedac97a2c16a87c3c48284ca8dfad20a62692fcbc9cc8983cac5f0c94189c3dbc5e7c96841121e0a1e19/8c0d23312fe5f0b86656d0e8cc6141b6.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【COBOL/Java】開発エンジニア｜ サーバーサイド 正社員 | 東京都品川区 （ITエンジニア）",
+            "salary_max": "550000",
+            "company": "株式会社スカイウイル"
+        },
+        {
+            "salary_min": "4000000",
+            "locations": "東京都渋谷区",
+            "salary_type": "Y",
+            "date": "Sat, 23 Sep 2023 07:52:44 GMT",
+            "description": "【A8Webアプリケーションエンジニア1・２課】<b>Java</b>_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の開発（A8事業部プロダクト開発部アプリ開発1・２課）   [仕事内容]  ■具体的な仕事内容  ・A8.net...に応じて担当していただきます。  ・技術的な問合せ対応、データ抽出(データベースからデータを取得する作業)など  ・不具合、障害対応   【対象の機能】  ・広告配信（Scala, <b>Java</b>）  ・トラッキング（JavaScript）  ・広告配信レポート（<b>Java</b>）  ・管理...",
+            "salary_currency_code": "JPY",
+            "salary": "4000000 - 8000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-4c13416479443c2b079db6e88ff8d4652c74548bebdbc9a88eceafdc8cedac97a2c14887c3c48284ca8dfad228c8bf8fcee7f88da4de008afeea89fedf003e091f1228c8bf85cee7dc8da5ccc3e0e382ecc545c9e2e38eea900b774c5b056d888ad7c7c7d684fdc645c3f6ca8af0bdc8be870d8df9e5c0ed9a625a595b505613/2871a8a654dade567afaa6de8bdbb149.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【A8Webアプリケーションエンジニア1・２課】Java_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の開発（A8事業部プロダクト開発部アプリ開発1・２課）｜ SE（オープンweb系） 正社員 | 東京都渋谷区 （ITエンジニア）",
+            "salary_max": "8000000",
+            "company": "株式会社ファンコミュニケーションズ"
+        },
+        {
+            "salary_min": "4000000",
+            "locations": "東京都渋谷区",
+            "salary_type": "Y",
+            "date": "Sat, 23 Sep 2023 07:27:13 GMT",
+            "description": "【【Webアプリケーションエンジニア】<b>Java</b>_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の新しい機能・サービスの開発（A8事業部プロダクト開発部アプリ開発4課）】   [仕事内容]  ■具体的な仕事内容  A8...プロジェクトのタスク管理   A8.netの顧客に新しい価値を提供し、事業と共に自身も成長したいという方を歓迎します。   【対象の機能】  ・広告配信（Scala, <b>Java</b>）  ・トラッキング（JavaScript）  ・広告配信レポート（<b>Java</b>）  ・管理...",
+            "salary_currency_code": "JPY",
+            "salary": "4000000 - 8000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-1e13416479443c2b079db6e88ff8d4652c74548bebdbc9a88eceafdc8cedac97a2c14887c3c48284ca8dfad2287c584f0d87edccc4f7b780ebcb4e8ef3ab93f1d3717d4e5f0dcee6c78da4c7c3e1d082edec86a2d6488fde89cc9993c8f7ce6cc4f68280ebf68de4cf009dfee294b3911d674c120e6f154c15545b52/37f46df9dbc9cf127cf5bed2a19c7d18.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【【Webアプリケーションエンジニア】Java_日本最大級のアフィリエイトサービス『A8.net(エーハチネット)』の新しい機能・サービスの開発（A8事業部プロダクト開発部アプリ開発4課）】｜ SE（オープンweb系） 正社員 | 東京都渋谷区 （ITエンジニア）",
+            "salary_max": "8000000",
+            "company": "株式会社ファンコミュニケーションズ"
+        },
+        {
+            "salary_min": "408100",
+            "locations": "神奈川県横浜市西区みなとみらい",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:34:16 GMT",
+            "description": "ト   ■言語  ・<b>Java</b>、JavaScript、HTML   ■必須スキル  ・<b>Java</b>、JavaScript、HTMLでのWebアプリ開発経験   勤務条件   お仕事分野   システムエンジニア（SE） / プログラマー / アプ...補足   企業カレンダーあり。   必要経験   プログラマー（PG）、テスティング(IT)   必要スキル   HTML・XML、JavaScript、<b>Java</b>   ※就業場所が官庁、学校、病院の場合、「屋内禁煙」は「敷地内禁煙」、「屋内...",
+            "salary_currency_code": "JPY",
+            "salary": "408100 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-131a41c8b1fb89f98254c7c6f5418adbf4c3f5d76b96b6b4dbba884488cbba54c4dff9638de5c7c3f7ff8af0800bd4bba683f6d4073e411509638bfbfac6e3cd499796badeac92668af2b892b7c68fc4f347819ce58be8cc2b18051d195758/c95c141accc84df3418b385ba1a618f8.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【みなとみらいエリア】Sier／Java/JavaScript/HTMLでのWebアプリ開発経験経験いかせます／土日祝休み／2600円以上のお仕事です",
+            "salary_max": "408100",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "425300",
+            "locations": "神奈川県厚木市",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:44:50 GMT",
+            "description": "ース  ・アジャイル方式での設計・開発・テストのスプリント  ・別部門の製造とのシステムテスト実施  ・リリース   ■必要スキル  ・システムの開発経験（<b>Java</b>）  ・SQLの知識、経験   ■歓迎スキル  ・tableauの知識、経験   勤務...以内   必要経験   プログラマー（PG）、データベース、アプリケーション設計   必要スキル   JavaScript、<b>Java</b>、tableau   ※就業場所が官庁、学校、病院の場合、「屋内禁煙」は「敷地内禁煙」、「屋内原則禁煙（喫煙室あり）」は...",
+            "salary_currency_code": "JPY",
+            "salary": "425300 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-121f41ceafd38cec9e97a3e58be2ce4786a2c98beae6c9a8b5ceafc28cec8097a2c14888f8ec82b9ce6a8cef82ce93a80d87edd9c4f69980ebe78de4c5009dfee294b3913f674c120e4ecee2ab84f1db4e82f98891c6ec71c9a980ceaef18cedaf54c9f5e386f7dd45c5e8c08cddaf29d4bba683f6d40797a2de8be2fb84e6a875505a401818/599b9c41c07c10a9b3336ff3e0763b81.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【厚木エリア】ソフトウェアベンダー／Java、SQL、tableau経験いかせます／在宅あり／システム開発のお仕事です",
+            "salary_max": "425300",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "435900",
+            "locations": "東京都新宿区",
+            "salary_type": "M",
+            "date": "Fri, 22 Sep 2023 07:50:38 GMT",
+            "description": "スキル  ・<b>JAVA</b>、Oracleの知識経験  ・外部設計以降の工程経験(3年以上目安)   ■歓迎スキル  ・リーダー経験   勤務条件   お仕事分野   システムエンジニア（SE） / 電気/設計・開発   勤務先の業界   IT業界   募集...以上の可能性あり）   勤務曜日   月・火・水・木・金  月～金／週5勤務（土日祝休み）   勤務時間   9:00～17:30 （実働7時間30分）休憩60分   残業   5時間以内   必要経験   プログラマー（PG）   必要スキル   <b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "435900 per month",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-481c41674c120e4ecee2ab84f1db4e82f98891c6ec71c3bdb6cab4de4f24460241618dfdc682cba554213d71604a4b4c0d81f3c6c2daa5618dfdc682cba55481fff8cdb2872c1f5c5a591441/5fd859be4a88e8811b2517b186ed539d.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【西新宿エリア】IT業界／スタート日相談可／Java開発スキルいかせます／在宅ありのお仕事です",
+            "salary_max": "435900",
+            "company": "株式会社パソナ"
+        },
+        {
+            "salary_min": "4500000",
+            "locations": "東京都",
+            "salary_type": "Y",
+            "date": "Sat, 30 Sep 2023 07:18:00 GMT",
+            "description": "フスターターな方  ［応募資格］  【必須】  ・システム開発の実務経験をお持ちの方（目安2年以上）   【尚可】  ・<b>Java</b>でのシステム開発経験  ・アジャイル開発経験をお持ちの方  ・Webサーバー、APサーバーの設定経験   ■環境：実装言語は<b>Java</b>...",
+            "salary_currency_code": "JPY",
+            "salary": "4500000 - 7000000 per year",
+            "site": "",
+            "url": "https://jobviewtrack.com/ja-jp/job-191b41ceafcc8ced9497a2db8be2e584e7825481fff8cdb2870d6705190f25928dc08fc5d082f681548dc7ffcfae95c4add58bd2b646c6f4cd6388cac6c7d0d68ce08b0bda899381fccf25928dc08fc5d082f681548bebdbc9a88eceafdc8cedac97a2c16a87c3c48284ca8dfad20ac2bd9cc9d8fe5cc1e3856250525c5f53/04849fa11b9c1139728ea045c791d9ad.html?affid=2fe9505824da669b63789f957def6e26",
+            "title": "【リモート】Java開発エンジニア【正社員】【その他】【完全週休2日制】【東京都】",
+            "salary_max": "7000000",
+            "company": ""
+        }
+    ],
+    "wordcloud_json": [
+        {
+            "word": "b",
+            "count": 424
+        },
+        {
+            "word": "開発",
+            "count": 199
+        },
+        {
+            "word": "Java",
+            "count": 178
+        },
+        {
+            "word": "保険",
+            "count": 135
+        },
+        {
+            "word": "経験",
+            "count": 126
+        },
+        {
+            "word": "方",
+            "count": 117
+        },
+        {
+            "word": "エンジニア",
+            "count": 108
+        },
+        {
+            "word": "工程",
+            "count": 91
+        },
+        {
+            "word": "条件",
+            "count": 87
+        },
+        {
+            "word": "資格",
+            "count": 85
+        },
+        {
+            "word": "応募",
+            "count": 83
+        },
+        {
+            "word": "詳細",
+            "count": 82
+        },
+        {
+            "word": "補足",
+            "count": 81
+        },
+        {
+            "word": "上流",
+            "count": 80
+        },
+        {
+            "word": "手当",
+            "count": 79
+        },
+        {
+            "word": "設計",
+            "count": 68
+        },
+        {
+            "word": "仕事",
+            "count": 67
+        },
+        {
+            "word": "制度",
+            "count": 63
+        },
+        {
+            "word": "システム",
+            "count": 60
+        },
+        {
+            "word": "休暇",
+            "count": 60
+        },
+        {
+            "word": "通勤",
+            "count": 57
+        },
+        {
+            "word": "AI",
+            "count": 57
+        },
+        {
+            "word": "時間",
+            "count": 56
+        },
+        {
+            "word": "厚生",
+            "count": 55
+        },
+        {
+            "word": "管理",
+            "count": 54
+        },
+        {
+            "word": "残業",
+            "count": 49
+        },
+        {
+            "word": "C",
+            "count": 47
+        },
+        {
+            "word": "環境",
+            "count": 47
+        },
+        {
+            "word": "定義",
+            "count": 46
+        },
+        {
+            "word": "要件",
+            "count": 45
+        },
+        {
+            "word": "日数",
+            "count": 45
+        },
+        {
+            "word": "土日",
+            "count": 43
+        },
+        {
+            "word": "月",
+            "count": 43
+        },
+        {
+            "word": "祝",
+            "count": 42
+        },
+        {
+            "word": "内容",
+            "count": 41
+        },
+        {
+            "word": "募集",
+            "count": 41
+        },
+        {
+            "word": "歓迎",
+            "count": 39
+        },
+        {
+            "word": "案件",
+            "count": 38
+        },
+        {
+            "word": "10",
+            "count": 38
+        },
+        {
+            "word": "休み",
+            "count": 36
+        },
+        {
+            "word": "会社",
+            "count": 34
+        },
+        {
+            "word": "20",
+            "count": 34
+        },
+        {
+            "word": "社会",
+            "count": 33
+        },
+        {
+            "word": "必須",
+            "count": 32
+        },
+        {
+            "word": "キャリア",
+            "count": 32
+        },
+        {
+            "word": "言語",
+            "count": 32
+        },
+        {
+            "word": "禁煙",
+            "count": 32
+        },
+        {
+            "word": "プロジェクト",
+            "count": 31
+        },
+        {
+            "word": "屋内",
+            "count": 30
+        },
+        {
+            "word": "プラットフォーム",
+            "count": 30
+        },
+        {
+            "word": "120",
+            "count": 30
+        },
+        {
+            "word": "実務",
+            "count": 29
+        },
+        {
+            "word": "交通",
+            "count": 29
+        },
+        {
+            "word": "支給",
+            "count": 29
+        },
+        {
+            "word": "安定",
+            "count": 29
+        },
+        {
+            "word": "学歴",
+            "count": 29
+        },
+        {
+            "word": "不問",
+            "count": 29
+        },
+        {
+            "word": "休日",
+            "count": 29
+        },
+        {
+            "word": "教育",
+            "count": 29
+        },
+        {
+            "word": "勤務",
+            "count": 28
+        },
+        {
+            "word": "場所",
+            "count": 28
+        },
+        {
+            "word": "アップ",
+            "count": 28
+        },
+        {
+            "word": "待遇",
+            "count": 28
+        },
+        {
+            "word": "福利",
+            "count": 28
+        },
+        {
+            "word": "雇用",
+            "count": 28
+        },
+        {
+            "word": "なし",
+            "count": 28
+        },
+        {
+            "word": "ENOKI",
+            "count": 28
+        },
+        {
+            "word": "使用",
+            "count": 27
+        },
+        {
+            "word": "喫煙",
+            "count": 27
+        },
+        {
+            "word": "健康",
+            "count": 27
+        },
+        {
+            "word": "年金",
+            "count": 27
+        },
+        {
+            "word": "年休",
+            "count": 27
+        },
+        {
+            "word": "事項",
+            "count": 27
+        },
+        {
+            "word": "補助",
+            "count": 27
+        },
+        {
+            "word": "負担",
+            "count": 27
+        },
+        {
+            "word": "チーム",
+            "count": 26
+        },
+        {
+            "word": "年間",
+            "count": 26
+        },
+        {
+            "word": "トワーク",
+            "count": 26
+        },
+        {
+            "word": "入室",
+            "count": 26
+        },
+        {
+            "word": "受動",
+            "count": 26
+        },
+        {
+            "word": "対策",
+            "count": 26
+        },
+        {
+            "word": "全面",
+            "count": 26
+        },
+        {
+            "word": "労災",
+            "count": 26
+        },
+        {
+            "word": "全額",
+            "count": 26
+        },
+        {
+            "word": "1",
+            "count": 25
+        },
+        {
+            "word": "以上",
+            "count": 25
+        },
+        {
+            "word": "基本",
+            "count": 25
+        },
+        {
+            "word": "年末",
+            "count": 24
+        },
+        {
+            "word": "年始",
+            "count": 24
+        },
+        {
+            "word": "夏季",
+            "count": 24
+        },
+        {
+            "word": "あり",
+            "count": 23
+        },
+        {
+            "word": "はじめ",
+            "count": 23
+        },
+        {
+            "word": "java",
+            "count": 23
+        },
+        {
+            "word": "半年",
+            "count": 23
+        },
+        {
+            "word": "円",
+            "count": 22
+        },
+        {
+            "word": "スキル",
+            "count": 22
+        },
+        {
+            "word": "海外",
+            "count": 22
+        },
+        {
+            "word": "ディレクション",
+            "count": 22
+        },
+        {
+            "word": "コード",
+            "count": 22
+        },
+        {
+            "word": "レビュー",
+            "count": 22
+        },
+        {
+            "word": "品質",
+            "count": 22
+        },
+        {
+            "word": "全て",
+            "count": 22
+        },
+        {
+            "word": "経過",
+            "count": 22
+        },
+        {
+            "word": "付与",
+            "count": 22
+        },
+        {
+            "word": "ビス",
+            "count": 21
+        },
+        {
+            "word": "125",
+            "count": 21
+        },
+        {
+            "word": "マネジメント",
+            "count": 21
+        },
+        {
+            "word": "企業",
+            "count": 20
+        },
+        {
+            "word": "年",
+            "count": 19
+        },
+        {
+            "word": "lt",
+            "count": 19
+        },
+        {
+            "word": "gt",
+            "count": 19
+        },
+        {
+            "word": "大手",
+            "count": 18
+        },
+        {
+            "word": "テスト",
+            "count": 17
+        },
+        {
+            "word": "業務",
+            "count": 17
+        },
+        {
+            "word": "可",
+            "count": 17
+        },
+        {
+            "word": "Web",
+            "count": 14
+        },
+        {
+            "word": "2",
+            "count": 14
+        },
+        {
+            "word": "背景",
+            "count": 14
+        },
+        {
+            "word": "サービス",
+            "count": 13
+        },
+        {
+            "word": "JavaScript",
+            "count": 12
+        },
+        {
+            "word": "社員",
+            "count": 12
+        },
+        {
+            "word": "以内",
+            "count": 12
+        },
+        {
+            "word": "研修",
+            "count": 12
+        },
+        {
+            "word": "リモート",
+            "count": 12
+        },
+        {
+            "word": "事業",
+            "count": 11
+        },
+        {
+            "word": "時給",
+            "count": 11
+        },
+        {
+            "word": "JAVA",
+            "count": 11
+        },
+        {
+            "word": "IT",
+            "count": 11
+        },
+        {
+            "word": "5",
+            "count": 11
+        },
+        {
+            "word": "万",
+            "count": 11
+        },
+        {
+            "word": "駅",
+            "count": 10
+        },
+        {
+            "word": "プライム",
+            "count": 10
+        },
+        {
+            "word": "8",
+            "count": 9
+        },
+        {
+            "word": "アプリ",
+            "count": 9
+        },
+        {
+            "word": "9",
+            "count": 9
+        },
+        {
+            "word": "30",
+            "count": 9
+        },
+        {
+            "word": "必要",
+            "count": 9
+        },
+        {
+            "word": "Android",
+            "count": 9
+        },
+        {
+            "word": "h",
+            "count": 9
+        },
+        {
+            "word": "A",
+            "count": 8
+        },
+        {
+            "word": "アプリケーション",
+            "count": 8
+        },
+        {
+            "word": "net",
+            "count": 8
+        },
+        {
+            "word": "支援",
+            "count": 8
+        },
+        {
+            "word": "4",
+            "count": 8
+        },
+        {
+            "word": "職種",
+            "count": 8
+        },
+        {
+            "word": "3",
+            "count": 8
+        },
+        {
+            "word": "SE",
+            "count": 8
+        },
+        {
+            "word": "分",
+            "count": 8
+        },
+        {
+            "word": "充実",
+            "count": 8
+        },
+        {
+            "word": "予定",
+            "count": 8
+        },
+        {
+            "word": "％",
+            "count": 8
+        },
+        {
+            "word": "SpringBoot",
+            "count": 8
+        },
+        {
+            "word": "メーカー",
+            "count": 8
+        },
+        {
+            "word": "担当",
+            "count": 7
+        },
+        {
+            "word": "SQL",
+            "count": 7
+        },
+        {
+            "word": "リーダー",
+            "count": 7
+        },
+        {
+            "word": "区",
+            "count": 7
+        },
+        {
+            "word": "在宅",
+            "count": 7
+        },
+        {
+            "word": "OK",
+            "count": 7
+        },
+        {
+            "word": "プログラマー",
+            "count": 7
+        },
+        {
+            "word": "製造",
+            "count": 7
+        },
+        {
+            "word": "VB",
+            "count": 7
+        },
+        {
+            "word": "PHP",
+            "count": 7
+        },
+        {
+            "word": "実績",
+            "count": 7
+        },
+        {
+            "word": "2023",
+            "count": 7
+        },
+        {
+            "word": "部",
+            "count": 6
+        },
+        {
+            "word": "取得",
+            "count": 6
+        },
+        {
+            "word": "対象",
+            "count": 6
+        },
+        {
+            "word": "COBOL",
+            "count": 6
+        },
+        {
+            "word": "Oracle",
+            "count": 6
+        },
+        {
+            "word": "地",
+            "count": 6
+        },
+        {
+            "word": "期間",
+            "count": 6
+        },
+        {
+            "word": "市",
+            "count": 6
+        },
+        {
+            "word": "勘案",
+            "count": 6
+        },
+        {
+            "word": "昇給",
+            "count": 6
+        },
+        {
+            "word": "オフィス",
+            "count": 6
+        },
+        {
+            "word": "ため",
+            "count": 6
+        },
+        {
+            "word": "常駐",
+            "count": 6
+        },
+        {
+            "word": "OS",
+            "count": 6
+        },
+        {
+            "word": "平均",
+            "count": 6
+        },
+        {
+            "word": "県",
+            "count": 5
+        },
+        {
+            "word": "機関",
+            "count": 5
+        },
+        {
+            "word": "ワーク",
+            "count": 5
+        },
+        {
+            "word": "就業",
+            "count": 5
+        },
+        {
+            "word": "知識",
+            "count": 5
+        },
+        {
+            "word": "先",
+            "count": 5
+        },
+        {
+            "word": "00",
+            "count": 5
+        },
+        {
+            "word": "場合",
+            "count": 5
+        },
+        {
+            "word": "HTML",
+            "count": 5
+        },
+        {
+            "word": "オープン",
+            "count": 5
+        },
+        {
+            "word": "中心",
+            "count": 5
+        },
+        {
+            "word": "検証",
+            "count": 5
+        },
+        {
+            "word": "運用",
+            "count": 5
+        },
+        {
+            "word": "東京",
+            "count": 5
+        },
+        {
+            "word": "受託",
+            "count": 5
+        },
+        {
+            "word": "入社",
+            "count": 5
+        },
+        {
+            "word": "か月",
+            "count": 5
+        },
+        {
+            "word": "100",
+            "count": 5
+        },
+        {
+            "word": "金融",
+            "count": 5
+        },
+        {
+            "word": "インフラ",
+            "count": 5
+        },
+        {
+            "word": "依頼",
+            "count": 5
+        },
+        {
+            "word": "過去",
+            "count": 5
+        },
+        {
+            "word": "名",
+            "count": 5
+        },
+        {
+            "word": "技術",
+            "count": 4
+        },
+        {
+            "word": "対応",
+            "count": 4
+        },
+        {
+            "word": "機能",
+            "count": 4
+        },
+        {
+            "word": "広告",
+            "count": 4
+        },
+        {
+            "word": "配信",
+            "count": 4
+        },
+        {
+            "word": "他",
+            "count": 4
+        },
+        {
+            "word": "作成",
+            "count": 4
+        },
+        {
+            "word": "出社",
+            "count": 4
+        },
+        {
+            "word": "株式",
+            "count": 4
+        },
+        {
+            "word": "外部",
+            "count": 4
+        },
+        {
+            "word": "7",
+            "count": 4
+        },
+        {
+            "word": "PG",
+            "count": 4
+        },
+        {
+            "word": "保守",
+            "count": 4
+        },
+        {
+            "word": "フレームワーク",
+            "count": 4
+        },
+        {
+            "word": "程度",
+            "count": 4
+        },
+        {
+            "word": "社内",
+            "count": 4
+        },
+        {
+            "word": "当社",
+            "count": 4
+        },
+        {
+            "word": "Xamarin",
+            "count": 4
+        },
+        {
+            "word": "toC",
+            "count": 4
+        },
+        {
+            "word": "多数",
+            "count": 4
+        },
+        {
+            "word": "一",
+            "count": 4
+        },
+        {
+            "word": "web",
+            "count": 4
+        },
+        {
+            "word": "関連",
+            "count": 4
+        },
+        {
+            "word": "習得",
+            "count": 4
+        },
+        {
+            "word": "運営",
+            "count": 4
+        },
+        {
+            "word": "ミッション",
+            "count": 4
+        },
+        {
+            "word": "ソ",
+            "count": 4
+        },
+        {
+            "word": "フ",
+            "count": 4
+        },
+        {
+            "word": "検討",
+            "count": 4
+        },
+        {
+            "word": "導入",
+            "count": 4
+        },
+        {
+            "word": "例",
+            "count": 4
+        },
+        {
+            "word": "DB",
+            "count": 4
+        },
+        {
+            "word": "相談",
+            "count": 4
+        },
+        {
+            "word": "徒歩",
+            "count": 4
+        },
+        {
+            "word": "創立",
+            "count": 4
+        },
+        {
+            "word": "賞与",
+            "count": 4
+        },
+        {
+            "word": "職",
+            "count": 4
+        },
+        {
+            "word": "女性",
+            "count": 4
+        },
+        {
+            "word": "11",
+            "count": 4
+        },
+        {
+            "word": "商品",
+            "count": 4
+        },
+        {
+            "word": "ソフトウェア",
+            "count": 4
+        },
+        {
+            "word": "状況",
+            "count": 4
+        },
+        {
+            "word": "プログラミング",
+            "count": 4
+        },
+        {
+            "word": "スマホアプリ",
+            "count": 4
+        },
+        {
+            "word": "正",
+            "count": 4
+        },
+        {
+            "word": "課",
+            "count": 3
+        },
+        {
+            "word": "データ",
+            "count": 3
+        },
+        {
+            "word": "抽出",
+            "count": 3
+        },
+        {
+            "word": "基幹",
+            "count": 3
+        },
+        {
+            "word": "結合",
+            "count": 3
+        },
+        {
+            "word": "PL",
+            "count": 3
+        },
+        {
+            "word": "制作",
+            "count": 3
+        },
+        {
+            "word": "構築",
+            "count": 3
+        },
+        {
+            "word": "最寄",
+            "count": 3
+        },
+        {
+            "word": "1000",
+            "count": 3
+        },
+        {
+            "word": "1200",
+            "count": 3
+        },
+        {
+            "word": "パー",
+            "count": 3
+        },
+        {
+            "word": "給与",
+            "count": 3
+        },
+        {
+            "word": "福岡",
+            "count": 3
+        },
+        {
+            "word": "週",
+            "count": 3
+        },
+        {
+            "word": "水",
+            "count": 3
+        },
+        {
+            "word": "木",
+            "count": 3
+        },
+        {
+            "word": "17",
+            "count": 3
+        },
+        {
+            "word": "実働",
+            "count": 3
+        },
+        {
+            "word": "休憩",
+            "count": 3
+        },
+        {
+            "word": "実施",
+            "count": 3
+        },
+        {
+            "word": "原則",
+            "count": 3
+        },
+        {
+            "word": "一連",
+            "count": 3
+        },
+        {
+            "word": "時短",
+            "count": 3
+        },
+        {
+            "word": "都",
+            "count": 3
+        },
+        {
+            "word": "AWS",
+            "count": 3
+        },
+        {
+            "word": "NET",
+            "count": 3
+        },
+        {
+            "word": "有",
+            "count": 3
+        },
+        {
+            "word": "概要",
+            "count": 3
+        },
+        {
+            "word": "連携",
+            "count": 3
+        },
+        {
+            "word": "内",
+            "count": 3
+        },
+        {
+            "word": "容",
+            "count": 3
+        },
+        {
+            "word": "参画",
+            "count": 3
+        },
+        {
+            "word": "フェーズ",
+            "count": 3
+        },
+        {
+            "word": "仕様",
+            "count": 3
+        },
+        {
+            "word": "項目",
+            "count": 3
+        },
+        {
+            "word": "Spring",
+            "count": 3
+        },
+        {
+            "word": "Batch",
+            "count": 3
+        },
+        {
+            "word": "ネットワーク",
+            "count": 3
+        },
+        {
+            "word": "向上",
+            "count": 3
+        },
+        {
+            "word": "請け",
+            "count": 3
+        },
+        {
+            "word": "自社",
+            "count": 3
+        },
+        {
+            "word": "エン",
+            "count": 3
+        },
+        {
+            "word": "安心",
+            "count": 3
+        },
+        {
+            "word": "学習",
+            "count": 3
+        },
+        {
+            "word": "ポジション",
+            "count": 3
+        },
+        {
+            "word": "Windows",
+            "count": 3
+        },
+        {
+            "word": "ソリューション",
+            "count": 3
+        },
+        {
+            "word": "評価",
+            "count": 3
+        },
+        {
+            "word": "小売",
+            "count": 3
+        },
+        {
+            "word": "比率",
+            "count": 3
+        },
+        {
+            "word": "有給",
+            "count": 3
+        },
+        {
+            "word": "Python",
+            "count": 3
+        },
+        {
+            "word": "サーバー",
+            "count": 3
+        },
+        {
+            "word": "３",
+            "count": 3
+        },
+        {
+            "word": "指導",
+            "count": 3
+        },
+        {
+            "word": "前",
+            "count": 3
+        },
+        {
+            "word": "今回",
+            "count": 3
+        },
+        {
+            "word": "上場",
+            "count": 3
+        },
+        {
+            "word": "刷新",
+            "count": 3
+        },
+        {
+            "word": "12",
+            "count": 3
+        },
+        {
+            "word": "利用",
+            "count": 3
+        },
+        {
+            "word": "会計",
+            "count": 3
+        },
+        {
+            "word": "パッケージ",
+            "count": 3
+        },
+        {
+            "word": "形態",
+            "count": 3
+        },
+        {
+            "word": "月給",
+            "count": 3
+        },
+        {
+            "word": "25",
+            "count": 3
+        },
+        {
+            "word": "JR",
+            "count": 3
+        },
+        {
+            "word": "北",
+            "count": 3
+        },
+        {
+            "word": "新地",
+            "count": 3
+        },
+        {
+            "word": "２",
+            "count": 2
+        },
+        {
+            "word": "日本",
+            "count": 2
+        },
+        {
+            "word": "最大",
+            "count": 2
+        },
+        {
+            "word": "アフィリエイト",
+            "count": 2
+        },
+        {
+            "word": "エーハチネット",
+            "count": 2
+        },
+        {
+            "word": "プロダクト",
+            "count": 2
+        },
+        {
+            "word": "具体",
+            "count": 2
+        },
+        {
+            "word": "データベース",
+            "count": 2
+        },
+        {
+            "word": "Scala",
+            "count": 2
+        },
+        {
+            "word": "トラッキング",
+            "count": 2
+        },
+        {
+            "word": "レポート",
+            "count": 2
+        },
+        {
+            "word": "改修",
+            "count": 2
+        },
+        {
+            "word": "調査",
+            "count": 2
+        },
+        {
+            "word": "ドキュメント",
+            "count": 2
+        },
+        {
+            "word": "単体",
+            "count": 2
+        },
+        {
+            "word": "登録",
+            "count": 2
+        },
+        {
+            "word": "ベンチャー",
+            "count": 2
+        },
+        {
+            "word": "顧客",
+            "count": 2
+        },
+        {
+            "word": "価値",
+            "count": 2
+        },
+        {
+            "word": "提供",
+            "count": 2
+        },
+        {
+            "word": "能力",
+            "count": 2
+        },
+        {
+            "word": "愛知",
+            "count": 2
+        },
+        {
+            "word": "名古屋",
+            "count": 2
+        },
+        {
+            "word": "既存",
+            "count": 2
+        },
+        {
+            "word": "ソル",
+            "count": 2
+        },
+        {
+            "word": "エクセル",
+            "count": 2
+        },
+        {
+            "word": "HR",
+            "count": 2
+        },
+        {
+            "word": "パートナーズ",
+            "count": 2
+        },
+        {
+            "word": "サポート",
+            "count": 2
+        },
+        {
+            "word": "23",
+            "count": 2
+        },
+        {
+            "word": "派遣",
+            "count": 2
+        },
+        {
+            "word": "2000",
+            "count": 2
+        },
+        {
+            "word": "認証",
+            "count": 2
+        },
+        {
+            "word": "信販",
+            "count": 2
+        },
+        {
+            "word": "決済",
+            "count": 2
+        },
+        {
+            "word": "代行",
+            "count": 2
+        },
+        {
+            "word": "博多",
+            "count": 2
+        },
+        {
+            "word": "高崎",
+            "count": 2
+        },
+        {
+            "word": "時",
+            "count": 2
+        },
+        {
+            "word": "目安",
+            "count": 2
+        },
+        {
+            "word": "分野",
+            "count": 2
+        },
+        {
+            "word": "金",
+            "count": 2
+        },
+        {
+            "word": "60",
+            "count": 2
+        },
+        {
+            "word": "アジャイル",
+            "count": 2
+        },
+        {
+            "word": "tableau",
+            "count": 2
+        },
+        {
+            "word": "官庁",
+            "count": 2
+        },
+        {
+            "word": "学校",
+            "count": 2
+        },
+        {
+            "word": "病院",
+            "count": 2
+        },
+        {
+            "word": "敷地",
+            "count": 2
+        },
+        {
+            "word": "アプ",
+            "count": 2
+        },
+        {
+            "word": "c",
+            "count": 2
+        },
+        {
+            "word": "自動",
+            "count": 2
+        },
+        {
+            "word": "契約",
+            "count": 2
+        },
+        {
+            "word": "Swift",
+            "count": 2
+        },
+        {
+            "word": "Objective",
+            "count": 2
+        },
+        {
+            "word": "活躍",
+            "count": 2
+        },
+        {
+            "word": "品川",
+            "count": 2
+        },
+        {
+            "word": "住所",
+            "count": 2
+        },
+        {
+            "word": "有り",
+            "count": 2
+        },
+        {
+            "word": "規模",
+            "count": 2
+        },
+        {
+            "word": "拡大",
+            "count": 2
+        },
+        {
+            "word": "python",
+            "count": 2
+        },
+        {
+            "word": "各種",
+            "count": 2
+        },
+        {
+            "word": "特徴",
+            "count": 2
+        },
+        {
+            "word": "所定",
+            "count": 2
+        },
+        {
+            "word": "労働",
+            "count": 2
+        },
+        {
+            "word": "無料",
+            "count": 2
+        },
+        {
+            "word": "自",
+            "count": 2
+        },
+        {
+            "word": "転勤",
+            "count": 2
+        },
+        {
+            "word": "B",
+            "count": 2
+        },
+        {
+            "word": "ソケット",
+            "count": 2
+        },
+        {
+            "word": "WEB",
+            "count": 2
+        },
+        {
+            "word": "Postgresql",
+            "count": 2
+        },
+        {
+            "word": "TomCat",
+            "count": 2
+        },
+        {
+            "word": "Git",
+            "count": 2
+        },
+        {
+            "word": "PM",
+            "count": 2
+        },
+        {
+            "word": "経営",
+            "count": 2
+        },
+        {
+            "word": "スマ",
+            "count": 2
+        },
+        {
+            "word": "ビジネス",
+            "count": 2
+        },
+        {
+            "word": "企画",
+            "count": 2
+        },
+        {
+            "word": "コンサル",
+            "count": 2
+        },
+        {
+            "word": "サービ",
+            "count": 2
+        },
+        {
+            "word": "Ruby",
+            "count": 2
+        },
+        {
+            "word": "リテラシー",
+            "count": 2
+        },
+        {
+            "word": "リモ",
+            "count": 2
+        },
+        {
+            "word": "by",
+            "count": 2
+        },
+        {
+            "word": "LIG",
+            "count": 2
+        },
+        {
+            "word": "シェア",
+            "count": 2
+        },
+        {
+            "word": "コワーキングスペース",
+            "count": 2
+        },
+        {
+            "word": "ブランク",
+            "count": 2
+        },
+        {
+            "word": "製品",
+            "count": 2
+        },
+        {
+            "word": "高次",
+            "count": 2
+        },
+        {
+            "word": "機種",
+            "count": 2
+        },
+        {
+            "word": "携帯",
+            "count": 2
+        },
+        {
+            "word": "電話",
+            "count": 2
+        },
+        {
+            "word": "Symbian",
+            "count": 2
+        },
+        {
+            "word": "126",
+            "count": 2
+        },
+        {
+            "word": "社風",
+            "count": 2
+        },
+        {
+            "word": "日間",
+            "count": 2
+        },
+        {
+            "word": "SAP",
+            "count": 2
+        },
+        {
+            "word": "53",
+            "count": 2
+        },
+        {
+            "word": "14",
+            "count": 2
+        },
+        {
+            "word": "前年",
+            "count": 2
+        },
+        {
+            "word": "官公庁",
+            "count": 2
+        },
+        {
+            "word": "強み",
+            "count": 2
+        },
+        {
+            "word": "全体",
+            "count": 2
+        },
+        {
+            "word": "18",
+            "count": 2
+        },
+        {
+            "word": "無し",
+            "count": 2
+        },
+        {
+            "word": "率",
+            "count": 2
+        },
+        {
+            "word": "仮想",
+            "count": 2
+        },
+        {
+            "word": "マスタ",
+            "count": 2
+        },
+        {
+            "word": "統合",
+            "count": 2
+        },
+        {
+            "word": "ASP",
+            "count": 2
+        },
+        {
+            "word": "掛川",
+            "count": 2
+        },
+        {
+            "word": "請負",
+            "count": 2
+        },
+        {
+            "word": "マネージャー",
+            "count": 2
+        },
+        {
+            "word": "割",
+            "count": 2
+        },
+        {
+            "word": "こと",
+            "count": 2
+        },
+        {
+            "word": "ほとんど",
+            "count": 2
+        },
+        {
+            "word": "個人",
+            "count": 2
+        },
+        {
+            "word": "ポイント",
+            "count": 2
+        },
+        {
+            "word": "ポンプ",
+            "count": 2
+        },
+        {
+            "word": "ュメント",
+            "count": 2
+        },
+        {
+            "word": "サル",
+            "count": 2
+        },
+        {
+            "word": "クライアント",
+            "count": 2
+        },
+        {
+            "word": "ナ",
+            "count": 2
+        },
+        {
+            "word": "今後",
+            "count": 2
+        },
+        {
+            "word": "施策",
+            "count": 2
+        },
+        {
+            "word": "多岐",
+            "count": 2
+        },
+        {
+            "word": "戦力",
+            "count": 2
+        },
+        {
+            "word": "Mc",
+            "count": 2
+        },
+        {
+            "word": "Frame",
+            "count": 2
+        },
+        {
+            "word": "BIZ",
+            "count": 2
+        },
+        {
+            "word": "イン",
+            "count": 2
+        },
+        {
+            "word": "2024",
+            "count": 2
+        },
+        {
+            "word": "Linux",
+            "count": 2
+        },
+        {
+            "word": "育児",
+            "count": 2
+        },
+        {
+            "word": "介護",
+            "count": 2
+        },
+        {
+            "word": "慶弔",
+            "count": 2
+        },
+        {
+            "word": "EC",
+            "count": 2
+        },
+        {
+            "word": "サイト",
+            "count": 2
+        },
+        {
+            "word": "コンビニ",
+            "count": 2
+        },
+        {
+            "word": "アール",
+            "count": 2
+        },
+        {
+            "word": "ラーニング",
+            "count": 2
+        },
+        {
+            "word": "Real",
+            "count": 2
+        },
+        {
+            "word": "ゲーム",
+            "count": 2
+        },
+        {
+            "word": "大学",
+            "count": 2
+        },
+        {
+            "word": "掲載",
+            "count": 2
+        },
+        {
+            "word": "28",
+            "count": 2
+        },
+        {
+            "word": "セントラル",
+            "count": 2
+        },
+        {
+            "word": "エンジニアリング",
+            "count": 2
+        },
+        {
+            "word": "設立",
+            "count": 2
+        },
+        {
+            "word": "登用",
+            "count": 2
+        },
+        {
+            "word": "試用",
+            "count": 2
+        },
+        {
+            "word": "テレワーク",
+            "count": 2
+        },
+        {
+            "word": "別途",
+            "count": 2
+        },
+        {
+            "word": "ECT",
+            "count": 2
+        },
+        {
+            "word": "21",
+            "count": 2
+        },
+        {
+            "word": "it",
+            "count": 2
+        }
+    ],
+    "money_countlist": {
+        "lower": [
+            0,
+            0,
+            2,
+            16,
+            1,
+            3,
+            2,
+            0,
+            0,
+            0
+        ],
+        "upper": [
+            0,
+            0,
+            2,
+            8,
+            1,
+            5,
+            2,
+            1,
+            3,
+            0
+        ]
+    },
+    "qiita_acounts": [
+        {
+            "description": "Python3,Node.js,Go,PHP,Nginx,RaspberryPi,Arduino,M5Stack,ESP32 あたりがカバー範囲です。",
+            "facebook_id": "",
+            "followees_count": 0,
+            "followers_count": 94,
+            "github_login_name": null,
+            "id": "ekzemplaro",
+            "items_count": 1823,
+            "linkedin_id": "",
+            "location": "栃木県",
+            "name": "内田 雅智",
+            "organization": "個人事業主",
+            "permanent_id": 179446,
+            "profile_image_url": "https://qiita-image-store.s3.amazonaws.com/0/179446/profile-images/1497925724",
+            "team_only": false,
+            "twitter_screen_name": null,
+            "website_url": "https://ekzemplaro.org"
+        },
+        {
+            "description": "Databricksのマネージャ、ソリューションアーキテクトです。こちらでDatabricks/Spark関連の情報をシェアできたらと考えています。",
+            "facebook_id": "takaaki.yayoi",
+            "followees_count": 11,
+            "followers_count": 287,
+            "github_login_name": "taka-yayoi",
+            "id": "taka_yayoi",
+            "items_count": 1260,
+            "linkedin_id": "takaaki-yayoi",
+            "location": "Tokyo",
+            "name": "Takaaki Yayoi",
+            "organization": "Databricks",
+            "permanent_id": 1168882,
+            "profile_image_url": "https://lh3.googleusercontent.com/a-/AOh14GiHDumucs3o6fmzfrEsScv2xRCHlOlUpn5zNq5u=s50",
+            "team_only": false,
+            "twitter_screen_name": "taka_aki",
+            "website_url": "https://databricks.com/jp/"
+        },
+        {
+            "description": "",
+            "facebook_id": "",
+            "followees_count": 1,
+            "followers_count": 129,
+            "github_login_name": null,
+            "id": "nanbuwks",
+            "items_count": 726,
+            "linkedin_id": "",
+            "location": "",
+            "name": "",
+            "organization": "",
+            "permanent_id": 139524,
+            "profile_image_url": "https://qiita-image-store.s3.amazonaws.com/0/139524/profile-images/1528631123",
+            "team_only": false,
+            "twitter_screen_name": "nanbuwks",
+            "website_url": ""
+        },
+        {
+            "description": "Work as a web developer in Tokyo🐰🍅",
+            "facebook_id": "",
+            "followees_count": 6,
+            "followers_count": 78,
+            "github_login_name": "jinwatanabe",
+            "id": "Sicut_study",
+            "items_count": 405,
+            "linkedin_id": "",
+            "location": "Saitama",
+            "name": "Watanabe Jin",
+            "organization": "Uzabase, Inc.",
+            "permanent_id": 810513,
+            "profile_image_url": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/810513/473f394d671435ad139d8d9864f52b698a9f9a62/x_large.png?1686385449",
+            "team_only": false,
+            "twitter_screen_name": "Sicut_study",
+            "website_url": "https://lapras.com/public/V4LBWKH"
+        },
+        {
+            "description": "投稿の文責は執筆者にあり、所属している企業とは関係ありません。",
+            "facebook_id": "",
+            "followees_count": 3,
+            "followers_count": 2,
+            "github_login_name": null,
+            "id": "yoshiyuki_kono",
+            "items_count": 257,
+            "linkedin_id": "",
+            "location": "",
+            "name": "",
+            "organization": "",
+            "permanent_id": 176567,
+            "profile_image_url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50",
+            "team_only": false,
+            "twitter_screen_name": "yoshiyuki_kono",
+            "website_url": ""
+        }
+    ],
+    "qiita_comments": [
+        {
+            "rendered_body": "",
+            "body": "#### \nJavaの特徴\n\n\n- オブジェクト指向：クラス、オブジェクト、継承、ポリモーフィズムなどのオブジェクト指向の機能を提供\n\n- ポータブル：プラットフォームに依存しない\n　　　　　　Windows、Mac、Linuxなどの異なるオペレーティングシステム上で実行できる\n\n- 型安全：静的型付け言語\n　　　　       コンパイル時に型エラーを検出する\n　　　　　　　　→安全なプログラムを開発できる\n\n- マルチスレッド：マルチスレッドプログラミングをサポートしている\n　              →複数のタスクを同時に実行できます。\n\n- ガベージコレクション：ガベージコレクション機能を備えている\n　　                  →プログラマはメモリ管理に関する問題を気にしなくていい\n",
+            "coediting": false,
+            "comments_count": 0,
+            "created_at": "2023-05-04T14:44:19+09:00",
+            "group": null,
+            "id": "fa6721c280f7c216f09e",
+            "likes_count": 0,
+            "private": false,
+            "reactions_count": 0,
+            "stocks_count": 0,
+            "tags": [
+                {
+                    "name": "Java",
+                    "versions": []
+                }
+            ],
+            "title": "Javaの特徴",
+            "updated_at": "2023-05-04T14:44:19+09:00",
+            "url": "https://qiita.com/a999/items/fa6721c280f7c216f09e",
+            "user": {
+                "description": "",
+                "facebook_id": "",
+                "followees_count": 2,
+                "followers_count": 2,
+                "github_login_name": null,
+                "id": "a999",
+                "items_count": 136,
+                "linkedin_id": "",
+                "location": "",
+                "name": "",
+                "organization": "",
+                "permanent_id": 2703054,
+                "profile_image_url": "https://secure.gravatar.com/avatar/85d32a1a43fecc5cc66f3b805fee8201",
+                "team_only": false,
+                "twitter_screen_name": null,
+                "website_url": ""
+            },
+            "page_views_count": null,
+            "team_membership": null,
+            "organization_url_name": null,
+            "slide": false,
+            "origin_body": "## Java\n\nオブジェクト指向プログラミング言語\n\nプラットフォームに依存しない\n→Windows、Mac、Linuxなどの異なるオペレーティングシステム上で実行できる\n\n### Javaの特徴\n\n- オブジェクト指向：クラス、オブジェクト、継承、ポリモーフィズムなどのオブジェクト指向の機能を提供\n\n- ポータブル：プラットフォームに依存しない\n　　　　　　Windows、Mac、Linuxなどの異なるオペレーティングシステム上で実行できる\n\n- 型安全：静的型付け言語\n　　　　       コンパイル時に型エラーを検出する\n　　　　　　　　→安全なプログラムを開発できる\n\n- マルチスレッド：マルチスレッドプログラミングをサポートしている\n　              →複数のタスクを同時に実行できます。\n\n- ガベージコレクション：ガベージコレクション機能を備えている\n　　                  →プログラマはメモリ管理に関する問題を気にしなくていい\n"
+        }
+    ],
+    "comments": [
+        "Javaプラットフォームは、Javaプログラムの実行環境または、実行環境と開発環境の双方を統合したソフトウェアであり、ビジネスサーバ、モバイル機器、組み込みシステム、スマートカードといった様々なハードウェア環境に対応したソフトウェア形態で提供されている",
+        "その中枢技術であるJava仮想マシンは各プラットフォーム環境間の違いを吸収しながら、Javaプログラムの適切な共通動作を実現する機能を備えている",
+        "このテクノロジは「write once, run anywhere」と標榜されていた"
+    ],
+    "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
+    "wikipedia_related": [
+        {
+            "basic": {
+                "money": 320,
+                "overtime": 423,
+                "age": 30,
+                "size": 423,
+                "remote": 34,
+                "count": 110372,
+                "qiita_score": 83787
+            },
+            "score": {
+                "money": 2.2857142857142856,
+                "overtime": 2.1149999999999998,
+                "age": 2.5,
+                "size": 2.1149999999999998,
+                "remote": 2.4285714285714284,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "Java",
+            "stars": "★★★☆☆",
+            "total_score": 3.06,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
+            "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 489,
+                "overtime": 626,
+                "age": 30,
+                "size": 626,
+                "remote": 50,
+                "count": 18018,
+                "qiita_score": 10716
+            },
+            "score": {
+                "money": 3.492857142857143,
+                "overtime": 3.13,
+                "age": 2.5,
+                "size": 3.13,
+                "remote": 3.5714285714285716,
+                "count": 5,
+                "qiita_score": 2.6790000000000003
+            },
+            "name": "Swift",
+            "stars": "★★★☆☆",
+            "total_score": 3.36,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/8924010780db484a83145542a3e49c6c2084ecb7/medium.jpg?1401738498",
+            "explain": "Swift（スウィフト）は、AppleのiOSおよびmacOS、Linux、Windowsで利用出来るプログラミング言語である。Worldwide Developers Conference (WWDC) 2014で発表された。Apple製OS上で動作するアプリケーションの開発に従来から用いられていたObjective-CやObjective-C++、C言語と共存できるように、共通のObjective-Cランタイムライブラリが使用されている。\nSwiftは、動的ディスパッチや動的バインディング等のObjective-Cの特長を受け継いでいる一方で、Objective-Cより「安全」にバグを捕捉できることも意図している",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 532,
+                "overtime": 714,
+                "age": 30,
+                "size": 714,
+                "remote": 59,
+                "count": 62042,
+                "qiita_score": 64971
+            },
+            "score": {
+                "money": 3.8,
+                "overtime": 3.57,
+                "age": 2.5,
+                "size": 3.57,
+                "remote": 4.214285714285714,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "Ruby",
+            "stars": "★★★★☆",
+            "total_score": 3.95,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/04ddc69fa03cd83041203ac067139d349ae8dee9/medium.jpg?1650353332",
+            "explain": "Ruby（ルビー）は、まつもとゆきひろ（通称: Matz）により開発されたオブジェクト指向スクリプト言語（スクリプト言語とはプログラミング言語の一分類）。\n日本で開発されたプログラミング言語としては初めて国際電気標準会議（IEC）で国際規格に認証された事例となった。\n\n",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 387,
+                "overtime": 553,
+                "age": 30,
+                "size": 553,
+                "remote": 64,
+                "count": 90706,
+                "qiita_score": 78720
+            },
+            "score": {
+                "money": 2.7642857142857142,
+                "overtime": 2.765,
+                "age": 2.5,
+                "size": 2.765,
+                "remote": 4.571428571428571,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "PHP",
+            "stars": "★★★★☆",
+            "total_score": 3.62,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/7c64a9d81f287a4efc8559db7474202acc76cadc/medium.jpg?1650353379",
+            "explain": "株式会社PHP研究所（ピーエイチピーけんきゅうしょ、英語: PHP Institute, Inc.）は、日本の出版社。\n1946年創業で、松下幸之助が創設した企業の1つ。当初は株式会社PHP総合研究所という名称でトータルシンクタンクを標榜していたが、2010年10月1日に子会社で出版社であった株式会社PHP研究所を吸収合併し、現在の名称に改名した。",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 569,
+                "overtime": 938,
+                "age": 30,
+                "size": 938,
+                "remote": 76,
+                "count": 2431,
+                "qiita_score": 15673
+            },
+            "score": {
+                "money": 4.064285714285714,
+                "overtime": 4.6899999999999995,
+                "age": 2.5,
+                "size": 4.6899999999999995,
+                "remote": 5,
+                "count": 1.2155,
+                "qiita_score": 3.9182499999999996
+            },
+            "name": "Scala",
+            "stars": "★★★★☆",
+            "total_score": 3.73,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/dc88b232098c780491d677e4a208fb4a657470af/medium.jpg?1568269339",
+            "explain": "Scala（スカラ、SKAH-lah）はオブジェクト指向言語と関数型言語の特徴を統合したマルチパラダイムのプログラミング言語である。名前の「Scala」は英語の「scalable language」に由来するものである。",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 415,
+                "overtime": 588,
+                "age": 30,
+                "size": 588,
+                "remote": 33,
+                "count": 92954,
+                "qiita_score": 155464
+            },
+            "score": {
+                "money": 2.9642857142857144,
+                "overtime": 2.94,
+                "age": 2.5,
+                "size": 2.94,
+                "remote": 2.357142857142857,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "Python",
+            "stars": "★★★☆☆",
+            "total_score": 3.39,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
+            "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
+            "admin_comment": null
+        }
+    ],
+    "title": "Java 「年収/採用企業」 フレームワークの転職評価 FlameValue",
+    "description": "Javaの「年収/採用企業情報」。就職・転職前にJavaの働く環境、年収・求人数などをリサーチ。就職・転職のための「Java」の価値分析チャート、求人情報、フレームワークランキングを掲載。"
+}
