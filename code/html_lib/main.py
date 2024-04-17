@@ -4,7 +4,7 @@ html = '''
 ## test
 
 
-<div style="width: 380px;"><canvas id="chart1"></canvas></div>
+&lt;div style=&quot;width: 380px;&quot;&gt;&lt;canvas id=&quot;chart1&quot;&gt;&lt;/canvas&gt;&lt;/div&gt;
 
 &lt;script&gt;
 // ボタンをクリック
