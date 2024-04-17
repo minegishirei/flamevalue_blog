@@ -12,12 +12,12 @@ from .my_tools import calc_distance
 from multiprocessing import Process
 import random
 import math            
-from my_mecab import getMeishiList
-from my_Qiita import getQiitaInfo
-from my_Qiita import getQiitaTags
-from my_Qiita import putQiitaArticle
+from .my_mecab import getMeishiList
+from .my_Qiita import getQiitaInfo
+from .my_Qiita import getQiitaTags
+from .my_Qiita import putQiitaArticle
 import json
-from mytools.JsonIO import JsonIO
+from .mytools.JsonIO import JsonIO
 import glob
 import os
 import random
