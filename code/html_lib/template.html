@@ -11,61 +11,6 @@
 			<div>
 				<canvas id="abilityChart" width="350" height="250"></canvas>
 			</div>
-			<script>
-				var LABEL_MASTER = [
-					{
-						"key" : "money",
-						"name" : "下限年収"
-					},
-					{
-						"key" : "overtime",
-						"name" : "上限年収"
-					},
-					{
-						"key" : "qiita_score",
-						"name" : "フォロワー数(Qiita)"
-					},
-					{
-						"key" : "remote",
-						"name" : "リモート率"
-					},
-					{
-						"key" : "count",
-						"name" : "求人件数"
-					}
-				]
-				var labelname = "{{ name }}"
-				var score_100 = {{ score_100 }}
-				var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
-				var labels = LABEL_MASTER.map((row)=>row.name)
-
-				var ctx = document.getElementById("abilityChart");
-				var myRadarChart = new Chart(ctx, {
-					type: 'radar', 
-					data: { 
-						labels: labels,
-						datasets: [{
-							label: labelname,
-							data: data,
-							backgroundColor: 'rgba(59,130,246,0.5)',
-							borderColor: 'rgba(59,130,246,0.5)',
-							borderWidth: 1
-						}]
-					},
-					options: {
-						scale:{
-							ticks:{
-								suggestedMin: 0,
-								suggestedMax: 100,
-								stepSize: 10,
-								callback: function(value, index, values){
-									return  value +  '点'
-								}
-							}
-						}
-					}
-				});
-			</script>
 		</td>
 		<td>
 			<table>
@@ -126,41 +71,98 @@
 <h2>{{ name }}の年収分布</h2>
 
 <div><canvas id="chart1"></canvas></div>
-<p>
-<script>
-// ボタンをクリック
-window.onload = function(){
-	labels = ['100万', '200万', '300万','400万', '500万', '600万', '700万', '800万', '900万', '1000万']
-	data1 = {{ money_countlist['lower'] }}
-	data2 = {{ money_countlist['upper'] }}
-  DrawChart(labels, data1, data2); // グラフを再描画
-}
 
-// グラフ描画処理
-function DrawChart(labels, data1, data2) {
-	var ctx = document.getElementById('chart1').getContext('2d');
-	window.myChart = new Chart(ctx, {
-	  type: 'bar',
-	  data: {
-	    labels: labels,
-	    datasets: [{
-	      label: '下限年収 (件)',
-	      data: data1,
-		  backgroundColor: 'rgba(59,130,246,0.5)'
-	    }, {
-	      label: '上限年収 (件)',
-	      data: data2,
-		  backgroundColor: 'rgba(59,130,246,0.5)'
-	    }]
-	  },
-	  options: {
-	    y: {
-	      min: 0,
-	      max: 15000,
-	    },
-	  },
-	});
-}
+<script>
+	// ボタンをクリック
+	window.onload = function(){
+		labels = ['100万', '200万', '300万','400万', '500万', '600万', '700万', '800万', '900万', '1000万']
+		data1 = {{ money_countlist['lower'] }}
+		data2 = {{ money_countlist['upper'] }}
+		DrawChart(labels, data1, data2); // グラフを再描画
+		DrawPorChart();
+	}
+
+	// グラフ描画処理
+	function DrawChart(labels, data1, data2) {
+		var ctx = document.getElementById('chart1').getContext('2d');
+		window.myChart = new Chart(ctx, {
+		type: 'bar',
+		data: {
+			labels: labels,
+			datasets: [{
+			label: '下限年収 (件)',
+			data: data1,
+			backgroundColor: 'rgba(33, 37, 41, 0.3)'
+			}, {
+			label: '上限年収 (件)',
+			data: data2,
+			backgroundColor: 'rgba(33, 37, 41, 0.3)'
+			}]
+		},
+		options: {
+			y: {
+			min: 0,
+			max: 15000,
+			},
+		},
+		});
+	}
+
+	function DrawPorChart(){
+		var LABEL_MASTER = [
+			{
+				"key" : "money",
+				"name" : "下限年収"
+			},
+			{
+				"key" : "overtime",
+				"name" : "上限年収"
+			},
+			{
+				"key" : "qiita_score",
+				"name" : "フォロワー数(Qiita)"
+			},
+			{
+				"key" : "remote",
+				"name" : "リモート率"
+			},
+			{
+				"key" : "count",
+				"name" : "求人件数"
+			}
+		]
+		var labelname = "{{ name }}"
+		var score_100 = {{ score_100 }}
+		var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
+		var labels = LABEL_MASTER.map((row)=>row.name)
+
+		var ctx = document.getElementById("abilityChart");
+		var myRadarChart = new Chart(ctx, {
+			type: 'radar', 
+			data: { 
+				labels: labels,
+				datasets: [{
+					label: labelname,
+					data: data,
+					backgroundColor: 'rgba(33, 37, 41, 0.3)',
+					borderColor: 'rgba(33, 37, 41, 0.3)',
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scale:{
+					ticks:{
+						suggestedMin: 0,
+						suggestedMax: 100,
+						stepSize: 10,
+						callback: function(value, index, values){
+							return  value +  '点'
+						}
+					}
+				}
+			}
+		});
+	}
 </script>
 
 
