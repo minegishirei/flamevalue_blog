@@ -11,7 +11,6 @@
 			<div>
 				<canvas id="abilityChart" width="350" height="250"></canvas>
 			</div>
-
 			<script>
 				var LABEL_MASTER = [
 					{
@@ -37,7 +36,6 @@
 				]
 				var labelname = "{{ name }}"
 				var score_100 = {{ score_100 }}
-				console.log(score_100)
 				var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
 				var labels = LABEL_MASTER.map((row)=>row.name)
 
@@ -55,10 +53,6 @@
 						}]
 					},
 					options: {
-						//title: {
-						//    display: true,
-						//    text: '言語評価チャート'
-						//},
 						scale:{
 							ticks:{
 								suggestedMin: 0,
@@ -116,7 +110,6 @@
 					</td>
 				</tr>
 			</table>
-
 		</td>
 	</tr>
 </table>
