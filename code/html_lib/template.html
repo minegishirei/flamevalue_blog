@@ -6,123 +6,119 @@
 
 
 <table width="100%">
-<tr>
-<td>
-
-<div>
-<canvas id="abilityChart" width="350" height="250"></canvas>
-</div>
-
-<script>
-	var LABEL_MASTER = [
-		{
-			"key" : "money",
-			"name" : "下限年収"
-		},
-		{
-			"key" : "overtime",
-			"name" : "上限年収"
-		},
-		{
-			"key" : "qiita_score",
-			"name" : "フォロワー数(Qiita)"
-		},
-		{
-			"key" : "remote",
-			"name" : "リモート率"
-		},
-		{
-			"key" : "count",
-			"name" : "求人件数"
-		}
-	]
-	var labelname = "{{ name }}"
-	var score_100 = {{ score_100 }}
-	console.log(score_100)
-	var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
-	var labels = LABEL_MASTER.map((row)=>row.name)
-
-    var ctx = document.getElementById("abilityChart");
-    var myRadarChart = new Chart(ctx, {
-        type: 'radar', 
-        data: { 
-            labels: labels,
-            datasets: [{
-                label: labelname,
-                data: data,
-                backgroundColor: 'RGBA(225,95,150, 0.5)',
-                borderColor: 'RGBA(225,95,150, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            //title: {
-            //    display: true,
-            //    text: '言語評価チャート'
-            //},
-            scale:{
-                ticks:{
-                    suggestedMin: 0,
-                    suggestedMax: 100,
-                    stepSize: 10,
-                    callback: function(value, index, values){
-                        return  value +  '点'
-                    }
-                }
-            }
-        }
-    });
-</script>
-</td>
-<td>
-
-
-<table>
-
 	<tr>
 		<td>
-			下限年収
-		</td>
-		<td>
-			{{　basic["money"] }} <br>万円 / 年
-		</td>
-	</tr>
-	<tr>
-		<td>
-			上限年収
-		</td>
-		<td>
-			{{ basic["overtime"] }} <br>万円 / 年
-		</td>
-	</tr>
-	<tr>
-		<td>
-			フォロワー数(Qiita)
-		</td>
-		<td>
-			{{ basic["qiita_score"] }} 人
-		</td>
-	</tr>
-	<tr>
-		<td>
-			リモート率
-		</td>
-		<td>
-			{{ basic["remote"] }} %
-		</td>
-	</tr>
-	<tr>
-		<td>
-			求人件数
-		</td>
-		<td>
-			{{ basic["count"] }} 件
-		</td>
-	</tr>
-</table>
+			<div>
+				<canvas id="abilityChart" width="350" height="250"></canvas>
+			</div>
 
-</td>
-</tr>
+			<script>
+				var LABEL_MASTER = [
+					{
+						"key" : "money",
+						"name" : "下限年収"
+					},
+					{
+						"key" : "overtime",
+						"name" : "上限年収"
+					},
+					{
+						"key" : "qiita_score",
+						"name" : "フォロワー数(Qiita)"
+					},
+					{
+						"key" : "remote",
+						"name" : "リモート率"
+					},
+					{
+						"key" : "count",
+						"name" : "求人件数"
+					}
+				]
+				var labelname = "{{ name }}"
+				var score_100 = {{ score_100 }}
+				console.log(score_100)
+				var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
+				var labels = LABEL_MASTER.map((row)=>row.name)
+
+				var ctx = document.getElementById("abilityChart");
+				var myRadarChart = new Chart(ctx, {
+					type: 'radar', 
+					data: { 
+						labels: labels,
+						datasets: [{
+							label: labelname,
+							data: data,
+							backgroundColor: 'RGBA(225,95,150, 0.5)',
+							borderColor: 'RGBA(225,95,150, 1)',
+							borderWidth: 1
+						}]
+					},
+					options: {
+						//title: {
+						//    display: true,
+						//    text: '言語評価チャート'
+						//},
+						scale:{
+							ticks:{
+								suggestedMin: 0,
+								suggestedMax: 100,
+								stepSize: 10,
+								callback: function(value, index, values){
+									return  value +  '点'
+								}
+							}
+						}
+					}
+				});
+			</script>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						下限年収
+					</td>
+					<td>
+						{{　basic["money"] }} <br>万円 / 年
+					</td>
+				</tr>
+				<tr>
+					<td>
+						上限年収
+					</td>
+					<td>
+						{{ basic["overtime"] }} <br>万円 / 年
+					</td>
+				</tr>
+				<tr>
+					<td>
+						フォロワー数(Qiita)
+					</td>
+					<td>
+						{{ basic["qiita_score"] }} 人
+					</td>
+				</tr>
+				<tr>
+					<td>
+						リモート率
+					</td>
+					<td>
+						{{ basic["remote"] }} %
+					</td>
+				</tr>
+				<tr>
+					<td>
+						求人件数
+					</td>
+					<td>
+						{{ basic["count"] }} 件
+					</td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
 </table>
 
 
