@@ -4,7 +4,10 @@ html = '''
 
 <h2>{{ name }}の評価</h2>
 
+
+<div style="width: 380px;">
 <canvas id="abilityChart"></canvas>
+</div>
 
 
 <script>
