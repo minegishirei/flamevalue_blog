@@ -86,7 +86,7 @@ html = '''
 			下限年収
 		</td>
 		<td>
-			{{　basic["money"] }} 万円 / 年
+			{{　basic["money"] }} <br>万円 / 年
 		</td>
 	</tr>
 	<tr>
@@ -94,7 +94,7 @@ html = '''
 			上限年収
 		</td>
 		<td>
-			{{ basic["overtime"] }} 万円 / 年
+			{{ basic["overtime"] }} <br>万円 / 年
 		</td>
 	</tr>
 	<tr>
