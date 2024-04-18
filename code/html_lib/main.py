@@ -29,7 +29,7 @@ def escape_xml(html):
 	return html
 
 def get_template():
-	with open("./template.html") as f:
+	with open("./html_lib/template.html") as f:
 		html = f.read()
 		return Template(escape_xml(html))
 
