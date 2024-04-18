@@ -23,11 +23,11 @@ function DrawChart(labels, data1, data2) {
 	  data: {
 	    labels: labels,
 	    datasets: [{
-	      label: '下限年収',
+	      label: '下限年収 (件)',
 	      data: data1,
 		  backgroundColor: '#9BD0F5'
 	    }, {
-	      label: '上限年収',
+	      label: '上限年収 (件)',
 	      data: data2,
 		  backgroundColor: '#FFB1C1'
 	    }]
