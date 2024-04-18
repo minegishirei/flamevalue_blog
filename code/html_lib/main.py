@@ -11,8 +11,8 @@ html = '''
 <tr>
 <td>
 
-<div width="312px">
-<canvas id="abilityChart"></canvas>
+<div>
+<canvas id="abilityChart" width="400" height="300"></canvas>
 </div>
 
 <script>
