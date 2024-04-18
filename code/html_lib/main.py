@@ -11,7 +11,7 @@ html = '''
 <tr>
 <td>
 
-<div width="50%">
+<div width="312px">
 <canvas id="abilityChart"></canvas>
 </div>
 
