@@ -4,11 +4,9 @@ html = '''
 
 <h2>{{ name }}の評価</h2>
 
-
 <div>
 <canvas id="abilityChart"></canvas>
 </div>
-
 
 <script>
 	var LABEL_MASTER = [
@@ -71,6 +69,64 @@ html = '''
         }
     });
 </script>
+
+
+
+
+<h2>{{ name }}の評価</h2>
+
+
+<table>
+	<tr>
+		<td>
+			下限年収
+		</td>
+		<td>
+			{{　basic["money"] }} 万円 / 年
+		</td>
+	</tr>
+	<tr>
+		<td>
+			上限年収
+		</td>
+		<td>
+			{{ basic["overtime"] }} 万円 / 年
+		</td>
+	</tr>
+	<tr>
+		<td>
+			フォロワー数(Qiita)
+		</td>
+		<td>
+			{{ basic["qiita_score"] }} 人
+		</td>
+	</tr>
+	<tr>
+		<td>
+			リモート率
+		</td>
+		<td>
+			{{ basic["remote"] }} %
+		</td>
+	</tr>
+	<tr>
+		<td>
+			求人件数
+		</td>
+		<td>
+			{{ basic["count"] }} 件
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+
 
 
 <h2>{{ name }}の年収分布</h2>
