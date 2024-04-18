@@ -9,6 +9,7 @@ html = '''
 <script>
 // ボタンをクリック
 window.onload = function(){
+	labels = ['100', '200', '300','400', '500', '600', '700', '800', '900', '1000']
 	data1 = {{ money_countlist['lower'] }}
 	data2 = {{ money_countlist['upper'] }}
   DrawChart(data1, data2); // グラフを再描画
