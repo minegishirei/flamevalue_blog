@@ -9,8 +9,9 @@ html = '''
 <script>
 // ボタンをクリック
 window.onload = function(){
-	data1 = JSON.parse(`{{ money_countlist['lower'] }}`)
-  DrawChart(data1); // グラフを再描画
+	data1 = {{ money_countlist['lower'] }}
+	data2 = {{ money_countlist['upper'] }}
+  DrawChart(data1, data2); // グラフを再描画
 }
 
 // グラフ描画処理
@@ -26,7 +27,7 @@ function DrawChart(data1) {
 	      borderColor: '#f88',
 	    }, {
 	      label: 'VDOT50',
-	      data: [693,1197,2481,5495,8002,11449],
+	      data: data2,
 	      borderColor: '#484',
 	    }, {
 	      label: 'VDOT60',
