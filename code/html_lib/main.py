@@ -12,7 +12,7 @@ html = '''
 <td>
 
 <div>
-<canvas id="abilityChart" width="400" height="300"></canvas>
+<canvas id="abilityChart" width="350" height="250"></canvas>
 </div>
 
 <script>
