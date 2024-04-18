@@ -12,16 +12,16 @@ window.onload = function(){
 	labels = ['100', '200', '300','400', '500', '600', '700', '800', '900', '1000']
 	data1 = {{ money_countlist['lower'] }}
 	data2 = {{ money_countlist['upper'] }}
-  DrawChart(data1, data2); // グラフを再描画
+  DrawChart(labels, data1, data2); // グラフを再描画
 }
 
 // グラフ描画処理
-function DrawChart(data1, data2) {
+function DrawChart(labels, data1, data2) {
 	var ctx = document.getElementById('chart1').getContext('2d');
 	window.myChart = new Chart(ctx, {
 	  type: 'line',
 	  data: {
-	    labels: ['3','5','10','Half','30','Full'],
+	    labels: labels,
 	    datasets: [{
 	      label: 'VDOT40',
 	      data: data1,
