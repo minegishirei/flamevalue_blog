@@ -19,7 +19,7 @@ window.onload = function(){
 function DrawChart(labels, data1, data2) {
 	var ctx = document.getElementById('chart1').getContext('2d');
 	window.myChart = new Chart(ctx, {
-	  type: 'line',
+	  type: 'bar',
 	  data: {
 	    labels: labels,
 	    datasets: [{
@@ -30,11 +30,7 @@ function DrawChart(labels, data1, data2) {
 	      label: 'VDOT50',
 	      data: data2,
 	      borderColor: '#484',
-	    }, {
-	      label: 'VDOT60',
-	      data: [590,1023,2122,4689,6828,9805],
-	      borderColor: '#48f',
-	    }],
+	    }]
 	  },
 	  options: {
 	    y: {
