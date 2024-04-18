@@ -35,6 +35,7 @@ html = '''
 	]
 	var labelname = "{{ name }}"
 	var score_100 = JSON.parse("{{ score_100 }}")
+	console.log(score_100)
 	var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
 	var labels = LABEL_MASTER.map((row)=>row.name)
 
