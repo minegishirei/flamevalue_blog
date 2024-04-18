@@ -45,8 +45,8 @@ html = '''
             datasets: [{
                 label: labelname,
                 data: data,
-                backgroundColor: '#119e4d',
-                borderColor: '#119e4d',
+                backgroundColor: 'RGBA(225,95,150, 0.5)',
+                borderColor: 'RGBA(225,95,150, 1)',
                 borderWidth: 1
             }]
         },
