@@ -4,6 +4,13 @@ html = '''
 
 <h2>{{ name }}の評価</h2>
 
+
+
+
+<table>
+<tr>
+<td>
+
 <div>
 <canvas id="abilityChart"></canvas>
 </div>
@@ -68,11 +75,8 @@ html = '''
         }
     });
 </script>
-
-
-
-
-<h2>{{ name }}の評価</h2>
+</td>
+<td>
 
 
 <table>
@@ -118,6 +122,9 @@ html = '''
 	</tr>
 </table>
 
+</td>
+</tr>
+</table>
 
 
 
