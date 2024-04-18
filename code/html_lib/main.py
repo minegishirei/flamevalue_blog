@@ -3,6 +3,7 @@ html = '''
 
 ## test
 
+<h2>{{ name }}の年収分布</h2>
 
 <div style="width: 380px;"><canvas id="chart1"></canvas></div>
 <p>
