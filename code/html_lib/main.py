@@ -9,11 +9,12 @@ html = '''
 <script>
 // ボタンをクリック
 window.onload = function(){
-  DrawChart(); // グラフを再描画
+	data1 = JSON.parse(`{{ data['money_countlist']['lower'] }}`)
+  DrawChart(data1); // グラフを再描画
 }
 
 // グラフ描画処理
-function DrawChart() {
+function DrawChart(data1) {
 	var ctx = document.getElementById('chart1').getContext('2d');
 	window.myChart = new Chart(ctx, {
 	  type: 'line',
@@ -21,7 +22,7 @@ function DrawChart() {
 	    labels: ['3','5','10','Half','30','Full'],
 	    datasets: [{
 	      label: 'VDOT40',
-	      data: [843,1448,3003,6659,9687,13785],
+	      data: data1,
 	      borderColor: '#f88',
 	    }, {
 	      label: 'VDOT50',
