@@ -7,11 +7,8 @@ html = '''
 
 
 
-<table>
-<tr>
-<td>
 
-<div width="312px">
+<div>
 <canvas id="abilityChart"></canvas>
 </div>
 
@@ -75,8 +72,7 @@ html = '''
         }
     });
 </script>
-</td>
-<td>
+
 
 
 <table>
@@ -122,9 +118,7 @@ html = '''
 	</tr>
 </table>
 
-</td>
-</tr>
-</table>
+
 
 
 
