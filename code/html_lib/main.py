@@ -15,7 +15,7 @@ window.onload = function(){
 }
 
 // グラフ描画処理
-function DrawChart(data1) {
+function DrawChart(data1, data2) {
 	var ctx = document.getElementById('chart1').getContext('2d');
 	window.myChart = new Chart(ctx, {
 	  type: 'line',
