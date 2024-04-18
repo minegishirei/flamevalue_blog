@@ -58,10 +58,10 @@ html = '''
             }]
         },
         options: {
-            title: {
-                display: true,
-                text: '言語評価チャート'
-            },
+            //title: {
+            //    display: true,
+            //    text: '言語評価チャート'
+            //},
             scale:{
                 ticks:{
                     suggestedMin: 0,
@@ -80,6 +80,8 @@ html = '''
 
 
 <table>
+
+	<h2>言語評価詳細</h2>
 	<tr>
 		<td>
 			下限年収
