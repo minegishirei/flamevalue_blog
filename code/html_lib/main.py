@@ -25,13 +25,11 @@ function DrawChart(labels, data1, data2) {
 	    datasets: [{
 	      label: '下限年収',
 	      data: data1,
-			backgroundColor: '#9BD0F5',
-	      borderColor: '#f88',
+		  backgroundColor: '#9BD0F5'
 	    }, {
 	      label: '上限年収',
 	      data: data2,
-		  backgroundColor: '#FFB1C1',
-	      borderColor: '#484',
+		  backgroundColor: '#FFB1C1'
 	    }]
 	  },
 	  options: {
