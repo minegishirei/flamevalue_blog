@@ -9,7 +9,7 @@ html = '''
 <script>
 // ボタンをクリック
 window.onload = function(){
-	data1 = JSON.parse(`{{ data['money_countlist']['lower'] }}`)
+	data1 = JSON.parse(`{{ money_countlist['lower'] }}`)
   DrawChart(data1); // グラフを再描画
 }
 
