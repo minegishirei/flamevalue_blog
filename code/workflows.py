@@ -64,7 +64,7 @@ if __name__ == "__main__":
             html_data = template.render(data)
             print(data)
             print(html_data)
-            r = hatena_entry(lang_name + datetime.now().strftime("%Y-%m-%dT%H:%M:%S") , html_data, entry_id, categorys,True, False)
+            r = hatena_entry(lang_name + "の年収相場 " + datetime.now().strftime("%Y-%m-%d") + "最新版" , html_data, entry_id, categorys,True, False)
             print(r)
 
 
