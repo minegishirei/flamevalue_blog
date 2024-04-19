@@ -148,20 +148,35 @@
 					label: labelname,
 					data: data,
 					backgroundColor: backgroundGray,
-					borderColor: backgroundColor,
+					//borderColor: backgroundColor,
+					borderColor: '#1ABB9C',
 					borderWidth: 1
-				}]
+				}],
+				color: "rgba(33, 37, 41, 0.3)",
 			},
 			options: {
-				scale:{
-					ticks:{
-						suggestedMin: 0,
-						suggestedMax: 100,
-						stepSize: 10,
-						callback: function(value, index, values){
-							return  value +  '点'
-						}
-					}
+				maintainAspectRatio: false,
+				scale: {
+					ticks: {
+						// 最小値の値を0指定
+						beginAtZero: true,
+						min: 0,
+						max: 100,
+						//背景色
+						backgroundColor: 'snow',
+						//グリッドライン
+						grid: {
+						color: '#1ABB9C',
+						},
+						//アングルライン
+						angleLines: {
+						color: '#1ABB9C',
+						},
+						//各項目のラベル
+						pointLabels: {
+						color: '#1ABB9C',
+						},
+					},
 				}
 			}
 		});
