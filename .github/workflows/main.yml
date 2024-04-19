@@ -61,7 +61,7 @@ jobs:
             echo "$file was changed"
             if [[ $file == *".md" ]]
             then
-              docker run -v ./blog:/blog -v ./code:/code pythonconsole bash -c "python /code/workflows.py /$file"
+              docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /$file"
               echo $file" is ok"
             fi
           done
