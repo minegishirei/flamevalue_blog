@@ -33,7 +33,7 @@ jobs:
       
 
       - name: build image
-        run: docker image build -t pythonconsole .
+        run: docker image build -t pythonconsole . > log/buildlog.txt
 
       #- name: run
       #  run: docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
