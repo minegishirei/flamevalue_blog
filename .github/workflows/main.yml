@@ -35,8 +35,8 @@ jobs:
       - name: build image
         run: docker image build -t pythonconsole .
 
-      - name: run
-        run: docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
+      #- name: run
+      #  run: docker run -v ./blog:/blog -v ./code:/code -v ./static:/static pythonconsole bash -c "python /code/workflows.py /blog/main.md"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -53,16 +53,16 @@ jobs:
         #   since_last_remote_commit: true 
       
 
-      #- name: List all changed files
-      #  env:
-      #    ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-      #  run: |
-      #   for file in ${ALL_CHANGED_FILES}; do
-      #      echo "$file was changed"
-      #      if [[ $file == *".md" ]]
-      #      then
-      #        docker run -v ./blog:/blog -v ./code:/code pythonconsole bash -c "python /code/workflows.py /$file"
-      #        echo $file" is ok"
-      #      fi
-      #    done
+      - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+            if [[ $file == *".md" ]]
+            then
+              docker run -v ./blog:/blog -v ./code:/code pythonconsole bash -c "python /code/workflows.py /$file"
+              echo $file" is ok"
+            fi
+          done
       

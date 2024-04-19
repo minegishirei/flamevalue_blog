@@ -45,26 +45,21 @@ if __name__ == "__main__":
     from html_lib.main import get_template
     import sys
     _, arg = sys.argv
+    lang_name = arg.replace("blog/","").replace(".md","")
     with open(arg, "r") as f:
         title, categorys, entry_id, *content = f.readlines()
     categorys = categorys.split(",")
     content = "\n".join(content)
-    #r = hatena_entry(title, content, entry_id, categorys,True, False)
-
+    
     FLAMEWORKDICT = GEN_FLAMEWORKDICT("/static/flamevalue/")
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
         json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
 
-    lang_names = ["Terraform"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
-    for lang_name in lang_names:
-        with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
-            data = build_param(lang_name, FLAMEWORKDICT)
-            json.dump(data, f, indent=4, ensure_ascii=False)
-            template = get_template()
-            html_data = template.render(data)
-            print(data)
-            print(html_data)
-            r = hatena_entry(lang_name + "の年収相場 " + datetime.now().strftime("%Y-%m-%d") + "最新版" , html_data, entry_id, categorys,True, False)
-            print(r)
-
+    #lang_names = ["Terraform"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
+    with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
+        data = build_param(lang_name, FLAMEWORKDICT)
+        json.dump(data, f, indent=4, ensure_ascii=False)
+        template = get_template()
+        html_data = template.render(data)
+        r = hatena_entry(lang_name + "の年収相場 " + datetime.now().strftime("%Y-%m-%d") + "最新版" , html_data, entry_id, categorys,True, False)
 
