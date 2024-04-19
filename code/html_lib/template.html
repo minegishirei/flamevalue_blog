@@ -73,6 +73,8 @@
 <div><canvas id="chart1"></canvas></div>
 
 <script>
+	var backgroundColor = 'rgba(33, 37, 41, 0.3)'
+
 	// ボタンをクリック
 	window.onload = function(){
 		labels = ['100万', '200万', '300万','400万', '500万', '600万', '700万', '800万', '900万', '1000万']
@@ -92,11 +94,11 @@
 			datasets: [{
 			label: '下限年収 (件)',
 			data: data1,
-			backgroundColor: 'rgba(33, 37, 41, 0.3)'
+			backgroundColor: backgroundColor
 			}, {
 			label: '上限年収 (件)',
 			data: data2,
-			backgroundColor: 'rgba(33, 37, 41, 0.3)'
+			backgroundColor: backgroundColor
 			}]
 		},
 		options: {
@@ -144,8 +146,8 @@
 				datasets: [{
 					label: labelname,
 					data: data,
-					backgroundColor: 'rgba(33, 37, 41, 0.3)',
-					borderColor: 'rgba(33, 37, 41, 0.3)',
+					backgroundColor: backgroundColor,
+					borderColor: backgroundColor,
 					borderWidth: 1
 				}]
 			},
