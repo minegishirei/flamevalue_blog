@@ -75,7 +75,13 @@
 <script>
 	var backgroundColor = "#1ABB9C" // Green
 	var backgroundGray = 'rgba(33, 37, 41, 0.3)'
-
+	var label_colors = {
+		"money" :"#00204a",
+		"overtime" : "#4c51bf",
+		"qiita_score" : "#005792",
+		"remote" : "#00bbf0",
+		"count" : "#42b883"
+	}
 	// ボタンをクリック
 	window.onload = function(){
 		labels = ['100万', '200万', '300万','400万', '500万', '600万', '700万', '800万', '900万', '1000万']
@@ -95,11 +101,11 @@
 			datasets: [{
 			label: '下限年収 (件)',
 			data: data1,
-			backgroundColor: backgroundGray
+			backgroundColor: label_colors.money
 			}, {
 			label: '上限年収 (件)',
 			data: data2,
-			backgroundColor: backgroundColor
+			backgroundColor: backgroundColor.overtime
 			}]
 		},
 		options: {
