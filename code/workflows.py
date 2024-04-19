@@ -45,12 +45,12 @@ if __name__ == "__main__":
     from html_lib.main import get_template
     import sys
     _, arg = sys.argv
-    lang_name = arg.replace("blog/","").replace(".md","")
+    lang_name = arg.replace("/blog/","").replace(".md","")
     with open(arg, "r") as f:
         title, categorys, entry_id, *content = f.readlines()
     categorys = categorys.split(",")
     content = "\n".join(content)
-    
+
     FLAMEWORKDICT = GEN_FLAMEWORKDICT("/static/flamevalue/")
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
         json.dump(FLAMEWORKDICT, f, indent=4, ensure_ascii=False)
