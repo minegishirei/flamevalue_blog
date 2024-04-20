@@ -2,40 +2,64 @@
 
 	<!-- Earnings (Monthly) Card Example -->
 
-		<div class="col-xl-6 col-md-6 mb-4">
-			<div class="card border-left-primary shadow h-100 py-2">
-				<div class="card-body">
-					<div class="row no-gutters align-items-center">
-						<div class="col mr-2">
-							<div class="text-xs text-uppercase mb-1">
-								推定市場年収</div>
-							<div class="h4 mb-0 font-weight-bold text-success text-gray-800">{{ basic["money"] }}<small class="text-dark h6">万円/年 ~ </small>{{ basic["overtime"] }}<small class="text-dark h6">万円/年</small> </div>
-						</div>
-						<div class="col-auto">
-							<i class="fas fa-calendar fa-2x text-gray-300"></i>
-						</div>
+	<div class="col-xl-6 col-md-6 mb-4">
+		<div class="card border-left-primary shadow h-100 py-2">
+			<div class="card-body">
+				<div class="row no-gutters align-items-center">
+					<div class="col mr-2">
+						<div class="text-xs text-uppercase mb-1">
+							推定市場年収</div>
+						<div class="h4 mb-0 font-weight-bold text-success text-gray-800">{{ basic["money"] }}<small class="text-dark h6">万円/年 ~ </small>{{ basic["overtime"] }}<small class="text-dark h6">万円/年</small> </div>
+					</div>
+					<div class="col-auto">
+						<i class="fas fa-calendar fa-2x text-gray-300"></i>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- Pending Requests Card Example -->
-		<div class="col-xl-6 col-md-6 mb-4">
-			<div class="card border-left-warning shadow h-100 py-2">
-				<div class="card-body">
-					<div class="row no-gutters align-items-center">
-						<div class="col mr-2">
-							<div class="text-xs text-uppercase mb-1">
-								おすすめ度(5段階評価)</div>
-							<div class="h5 mb-0 font-weight-bold text-gray-800 text-warning"> {{ stars }} </div>
-						</div>
-						<div class="col-auto">
-							<i class="fas fa-comments fa-2x text-gray-300"></i>
-						</div>
+	<!-- Pending Requests Card Example -->
+	<div class="col-xl-6 col-md-6 mb-4">
+		<div class="card border-left-warning shadow h-100 py-2">
+			<div class="card-body">
+				<div class="row no-gutters align-items-center">
+					<div class="col mr-2">
+						<div class="text-xs text-uppercase mb-1">
+							おすすめ度(5段階評価)</div>
+						<div class="h5 mb-0 font-weight-bold text-gray-800 text-warning"> {{ stars }} </div>
+					</div>
+					<div class="col-auto">
+						<i class="fas fa-comments fa-2x text-gray-300"></i>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+
+	<div class="col-lg-12 mb-4 h-100">
+		<!-- Illustrations -->
+		<div class="card shadow mb-4">
+			<div class="card-header py-3">
+				<h6 class="m-0 font-weight-bold text-primary">{{ name }}の年収</h6>
+			</div>
+			<div class="card-body">
+				<!--
+				<div class="text-center">
+					<img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="...">
+				</div>
+				-->
+				<p>
+					{{ md_money }}
+				</p>
+				<a target="_blank" rel="nofollow" href="#money_distribution_graph">
+					年収分布表を確認する
+				</a>
+			</div>
+		</div>
+	</div>
+
 		<!-- Earnings (Monthly) Card Example -->
 		<div class="col-xl-6 col-md-6 mb-4">
 			<div class="card border-left-success shadow h-100 py-2">
@@ -53,7 +77,7 @@
 				</div>
 			</div>
 		</div>
-
+	
 		<!-- Earnings (Monthly) Card Example -->
 		<div class="col-xl-6 col-md-6 mb-4">
 			<div class="card border-left-info shadow h-100 py-2">
@@ -80,29 +104,6 @@
 				</div>
 			</div>
 		</div>
-
-	<div class="col-lg-12 mb-4 h-100">
-		<!-- Illustrations -->
-		<div class="card shadow mb-4">
-			<div class="card-header py-3">
-				<h6 class="m-0 font-weight-bold text-primary">{{ name }}の年収</h6>
-			</div>
-			<div class="card-body">
-				<!--
-				<div class="text-center">
-					<img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="...">
-				</div>
-				-->
-				<p>
-					{{ md_money }}
-				</p>
-				<a target="_blank" rel="nofollow" href="#money_distribution_graph">
-					年収分布表を確認する
-				</a>
-			</div>
-		</div>
-	</div>
-
 
 </div>
 
