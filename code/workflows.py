@@ -1,6 +1,7 @@
 from datetime import datetime
 import requests as req
 import json
+import markdown_to_json
 
 HATENA_ID = "minegishirei"
 BLOG_DOMAIN = "flamevalue.hatenablog.com"
@@ -28,6 +29,10 @@ def hatena_entry(title, contents, entry_id, categorys=[], updated="", draft=Fals
 
 
 
+def get_json_markdown(content):
+    dictified = markdown_to_json.dictify(content)
+    return dictified
+
 
 
 if __name__ == "__main__":
@@ -40,6 +45,7 @@ if __name__ == "__main__":
         title, categorys, entry_id, *content = f.readlines()
     categorys = categorys.split(",")
     content = "\n".join(content)
+    
 
     FLAMEWORKDICT = GEN_FLAMEWORKDICT("/static/flamevalue/")
     with open( f'/static/flamevaluedict/flamevaluedict.json', 'w+') as f:
@@ -48,6 +54,7 @@ if __name__ == "__main__":
     #lang_names = ["Terraform"] #"Scala", "Ruby", "PHP", "Javascript", "Typescript", "Rust", "Swift", "Kotlin", "Vue", "React", "MySQL", "PostgreSQL"]
     with open( f'/static/flamevalue/{lang_name}.json', 'w') as f:
         data = build_param(lang_name, FLAMEWORKDICT)
+        data.update(get_json_markdown(content))
         json.dump(data, f, indent=4, ensure_ascii=False)
         template = get_template()
         html_data = template.render(data)
