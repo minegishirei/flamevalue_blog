@@ -299,7 +299,7 @@
 		]
 		var labelname = "{{ name }}"
 		var score_100 = {{ score_100 }}
-		var data = LABEL_MASTER.map((row)=>(score_100[row.key]))
+		var data = LABEL_MASTER.map((row)=>( Math.round(score_100[row.key]) ))
 		var labels = LABEL_MASTER.map((row)=>row.name)
 
 		var ctx = document.getElementById("abilityChart");
