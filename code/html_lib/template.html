@@ -85,6 +85,11 @@
 </div>
 
 
+<p>
+	{{ md_money }}
+</p>
+
+
 <h2>{{ name }}の評価 </h2>
 
 
@@ -145,8 +150,9 @@
 	</tr>
 </table>
 
-
-
+<p>
+{{ md_value }}
+</p>
 
 
 
@@ -157,6 +163,10 @@
 <h2>{{ name }}の年収分布</h2>
 
 <div><canvas id="chart1"></canvas></div>
+
+<p>
+	{{ md_money_array }}
+</p>
 
 <script>
 	var backgroundColor = "#1ABB9C" // Green
