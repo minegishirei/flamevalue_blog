@@ -33,4 +33,3 @@ def get_template():
 		html = f.read()
 		return Template(escape_xml(html))
 
-print ()
