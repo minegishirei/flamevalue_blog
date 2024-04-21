@@ -79,6 +79,32 @@
     },
     {
         "basic": {
+            "money": 476,
+            "overtime": 709,
+            "age": 30,
+            "size": 709,
+            "remote": 39,
+            "count": 10867,
+            "qiita_score": 43279
+        },
+        "score": {
+            "money": 3.4000000000000004,
+            "overtime": 3.545,
+            "age": 2.5,
+            "size": 3.545,
+            "remote": 2.7857142857142856,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Docker",
+        "stars": "★★★★☆",
+        "total_score": 3.68,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bbbcb39962c1a976be1c15fb4ed21cfef0d2e025/medium.jpg?1696232930",
+        "explain": "Docker（ドッカー）は、コンテナ仮想化を用いてアプリケーションを開発・配置・実行するためのオープンプラットフォームである。\nDockerはコンテナ仮想化を用いたOSレベルの仮想化によりアプリケーションを開発・実行環境から隔離し、アプリケーションの素早い提供を可能にする。かつその環境自体をアプリケーションと同じようにコード（イメージ）として管理可能にする。Dockerを開発・テスト・デプロイに用いることで「コードを書く」と「コードが製品として実行される」間の時間的ギャップを大きく短縮できる",
+        "admin_comment": null
+    },
+    {
+        "basic": {
             "money": 537,
             "overtime": 738,
             "age": 30,
