@@ -1,7 +1,7 @@
 {
     "name": "Linux",
     "explain": "Linux（リナックス、他の読みは#「Linux」の読み方で後述）とは、狭義にはUnix系オペレーティングシステムカーネルであるLinuxカーネルを指し、広義にはそれをカーネルとして周辺を整備したシステム全体のことをいう（GNU/Linuxも参照）。",
-    "date": "2024/04/21 23:25:57",
+    "date": "2024/04/21 23:33:15",
     "total_score": 3.07,
     "stars": "★★★☆☆",
     "basic": {
@@ -5635,6 +5635,32 @@
             "total_score": 3.18,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
             "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 370,
+                "overtime": 443,
+                "age": 30,
+                "size": 443,
+                "remote": 27,
+                "count": 36403,
+                "qiita_score": 93859
+            },
+            "score": {
+                "money": 2.642857142857143,
+                "overtime": 2.215,
+                "age": 2.5,
+                "size": 2.215,
+                "remote": 1.9285714285714286,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "Linux",
+            "stars": "★★★☆☆",
+            "total_score": 3.07,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/754320454031c6306b592eef22ffe3425641e568/medium.jpg?1636957283",
+            "explain": "Linux（リナックス、他の読みは#「Linux」の読み方で後述）とは、狭義にはUnix系オペレーティングシステムカーネルであるLinuxカーネルを指し、広義にはそれをカーネルとして周辺を整備したシステム全体のことをいう（GNU/Linuxも参照）。",
             "admin_comment": null
         },
         {
