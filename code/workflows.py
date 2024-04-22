@@ -39,7 +39,7 @@ def get_json_markdown(content):
 
 if __name__ == "__main__":
     from flamevalue.main import build_param , GEN_FLAMEWORKDICT
-    from html_lib.main import get_template
+    from html_lib.main import get_template, escape_xml
     import sys
     _, arg = sys.argv
     lang_name = arg.replace("/blog/","").replace(".md","")
@@ -60,5 +60,5 @@ if __name__ == "__main__":
         json.dump(data, f, indent=4, ensure_ascii=False)
         template = get_template()
         html_data = template.render(data)
-        r = hatena_entry(lang_name + "の年収相場 " + datetime.now().strftime("%Y-%m-%d") + "最新版" , html_data, entry_id, categorys,True, False)
+        r = hatena_entry(lang_name + "の年収相場 " + datetime.now().strftime("%Y-%m-%d") + "最新版" , escape_xml(html_data), entry_id, categorys,True, False)
         print(r)

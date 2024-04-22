@@ -31,5 +31,5 @@ def escape_xml(html):
 def get_template():
 	with open("./html_lib/template.html") as f:
 		html = f.read()
-		return Template(escape_xml(html))
+		return Template(html)
 
